@@ -35,10 +35,10 @@ export const bscPools = [
   },
   {
     id: 'bomb-bshare-bnb',
-    name: 'BOMB-BTCB LP',
-    token: 'BOMB-BTCB LP',
+    name: 'BSHARE-BNB LP',
+    token: 'BSHARE-BNB LP',
     tokenDescription: 'bomb.money',
-    tokenAddress: '0xf924E642f05ACC57fc3b14990c2B1a137683b201',
+    tokenAddress: '0x111111111117dC0aa78b770fA6A738034120C302',
     tokenDecimals: 18,
     tokenDescriptionUrl: '#',
     earnedToken: 'farmBombBSHARE-BNB',

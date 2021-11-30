@@ -53,11 +53,11 @@ const Header = ({ links, isNightMode, setNightMode }) => {
                 height={'40px'}
                 className={classes.logo}
               />
-              beefy.finance
+              bomb.farm
             </Hidden>
             <Hidden smUp>
               <img
-                alt="BIFI"
+                alt="BOMB"
                 src={require(`images/bomb-256.png`)}
                 height={'35px'}
                 className={classes.logo}
@@ -69,15 +69,15 @@ const Header = ({ links, isNightMode, setNightMode }) => {
         <div className={classes.middleNav}>
           <Hidden smDown>
             {renderLink('vote', t('vote'), 'vote-yea', classes)}
-            {renderLink('dashboard', t('stats'), 'chart-bar', classes)}
-            {renderLink('docs', t('docs'), 'book', classes)}
-            {renderLink('blog', t('blog'), 'file-alt', classes)}
-            <InsureLink t={t} classes={classes} />
+            {/* {renderLink('dashboard', t('stats'), 'chart-bar', classes)} */}
+            {/* {renderLink('docs', t('docs'), 'book', classes)} */}
+            {/* {renderLink('blog', t('blog'), 'file-alt', classes)} */}
+            {/* <InsureLink t={t} classes={classes} /> */}
           </Hidden>
-          {renderLink('buy', t('buy'), 'dollar-sign', classes)}
-          <Link className={classes.btnBoost} to={`/${chain}/stake`}>
+          {/* {renderLink('buy', t('buy'), 'dollar-sign', classes)} */}
+          {/* <Link className={classes.btnBoost} to={`/${chain}/stake`}>
             <img alt="Boost" src={require('images/stake/boost.svg')} />
-          </Link>
+          </Link> */}
         </div>
 
         <Hidden smDown implementation="css">

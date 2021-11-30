@@ -91,11 +91,11 @@ export default function Pools() {
             )}
           </span>
 
-          {fetchBifibuybackDone && chainBifibuyback && (
+          {/* {fetchBifibuybackDone && chainBifibuyback && (
             <span className={classes.text}>
               {t('Vault-BifiBuyback', { amount: formatGlobalTvl(chainBifibuyback) })}
             </span>
-          )}
+          )} */}
 
           <span className={classes.text}>
             {t('Vault-Deposited')}{' '}

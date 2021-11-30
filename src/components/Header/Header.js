@@ -48,8 +48,8 @@ const Header = ({ links, isNightMode, setNightMode }) => {
           <Button className={classes.title}>
             <Hidden xsDown>
               <img
-                alt="BIFI"
-                src={require(`images/BIFI-logo.svg`)}
+                alt="BOMB"
+                src={require(`images/bomb-256.png`)}
                 height={'40px'}
                 className={classes.logo}
               />
@@ -58,7 +58,7 @@ const Header = ({ links, isNightMode, setNightMode }) => {
             <Hidden smUp>
               <img
                 alt="BIFI"
-                src={require(`images/BIFI-logo.svg`)}
+                src={require(`images/bomb-256.png`)}
                 height={'35px'}
                 className={classes.logo}
               />
@@ -114,13 +114,13 @@ const Header = ({ links, isNightMode, setNightMode }) => {
           </IconButton>
           <div className={classes.appResponsive}>{links}</div>
           <div style={{ textAlign: 'center' }}>
-            <LinkSidebar name="vote" label={t('vote')} icon="vote-yea" classes={classes} />
-            <LinkSidebar name="dashboard" label={t('stats')} icon="chart-bar" classes={classes} />
+            {/* <LinkSidebar name="vote" label={t('vote')} icon="vote-yea" classes={classes} /> */}
+            {/* <LinkSidebar name="dashboard" label={t('stats')} icon="chart-bar" classes={classes} />
             <LinkSidebar name="docs" label={t('docs')} icon="book" classes={classes} />
             <LinkSidebar name="blog" label={t('blog')} icon="file-alt" classes={classes} />
             <LinkSidebar name="forum" label={t('forum')} icon="comments" classes={classes} />
             <InsureLinkSidebar t={t} classes={classes} />
-            <LinkSidebar name="buy" label={t('buy')} icon="dollar-sign" classes={classes} />
+            <LinkSidebar name="buy" label={t('buy')} icon="dollar-sign" classes={classes} /> */}
             <IconButton onClick={setNightMode} className={classes.icon}>
               {isNightMode ? <WbSunny /> : <NightsStay />}
             </IconButton>

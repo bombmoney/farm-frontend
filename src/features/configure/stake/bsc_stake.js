@@ -3,7 +3,7 @@ import { govPoolABI } from '../abi';
 const moonpot = {
   logo: 'stake/moonpot/logo.png',
   background: 'stake/moonpot/bg.png',
-  text: 'Moonpot is a win-win savings game on Binance Smart Chain powered by Beefy Finance. By depositing crypto into a Moonpot, users gain interest on their assets and enter into a prize draw at the same time. There’s a chance to win weekly prizes paid out in crypto from each Moonpot entered — as well as an exclusive monthly prize draw for $POTS stakers.',
+  text: 'Moonpot is a win-win savings game on Binance Smart Chain powered by BombFarm. By depositing crypto into a Moonpot, users gain interest on their assets and enter into a prize draw at the same time. There’s a chance to win weekly prizes paid out in crypto from each Moonpot entered — as well as an exclusive monthly prize draw for $POTS stakers.',
   website: 'https://moonpot.com/',
   social: {
     telegram: 'https://t.me/moonpotdotcom',
@@ -66,7 +66,7 @@ export const bscStakePools = [
   //       logo: 'stake/beefy/beefyfinance.png',
   //       logoNight: 'stake/beefy/beefyfinance_night.png',
   //       background: 'stake/beefy/background.png',
-  //       text: "Beefy Finance is The Multi-Chain Yield Optimizer across many blockchains, enabling users to earn autocompounded yield on their crypto. Did you know also that you can own a piece of Beefy itself? Beefy runs on its governance token, BIFI. The token has a set supply of 80,000 across all chains; no more may be minted, ever! As a holder of BIFI you may create and vote on important DAO proposals, and you become dividend-eligible to earn a share of every compounding harvest on Beefy vaults, hour by hour. Here on Binance, you just need to stake BIFI in this reward pool, or in the autocompounding BIFI Maxi vault on the main page. For this pool, BNB dividends are gathered and sent proportionally to each staker. Stake here, return later to claim the BNB you've earned.",
+  //       text: "BombFarm is The Multi-Chain Yield Optimizer across many blockchains, enabling users to earn autocompounded yield on their crypto. Did you know also that you can own a piece of BombFarm itself? BombFarm runs on its governance token, BIFI. The token has a set supply of 80,000 across all chains; no more may be minted, ever! As a holder of BIFI you may create and vote on important DAO proposals, and you become dividend-eligible to earn a share of every compounding harvest on BombFarm vaults, hour by hour. Here on Binance, you just need to stake BIFI in this reward pool, or in the autocompounding BIFI Maxi vault on the main page. For this pool, BNB dividends are gathered and sent proportionally to each staker. Stake here, return later to claim the BNB you've earned.",
   //       website: 'https://www.bomb.farm',
   //       social: {
   //         telegram: 'http://t.me/beefyfinance',
@@ -1303,7 +1303,7 @@ export const bscStakePools = [
   //     {
   //       logo: 'stake/moonpot/logo.png',
   //       background: 'stake/moonpot/bg.png',
-  //       text: 'Moonpot is a win-win savings game on Binance Smart Chain powered by Beefy Finance. By depositing crypto into a Moonpot, users gain interest on their assets and enter into a prize draw at the same time. There’s a chance to win weekly prizes paid out in crypto from each Moonpot entered — as well as an exclusive monthly prize draw for $POTS stakers.',
+  //       text: 'Moonpot is a win-win savings game on Binance Smart Chain powered by BombFarm. By depositing crypto into a Moonpot, users gain interest on their assets and enter into a prize draw at the same time. There’s a chance to win weekly prizes paid out in crypto from each Moonpot entered — as well as an exclusive monthly prize draw for $POTS stakers.',
   //       website: 'https://moonpot.com/',
   //       social: {
   //         telegram: 'https://t.me/moonpotdotcom',
@@ -1402,7 +1402,7 @@ export const bscStakePools = [
   //     {
   //       logo: 'stake/moonpot/logo.png',
   //       background: 'stake/moonpot/bg.png',
-  //       text: 'Moonpot is a win-win savings game on Binance Smart Chain powered by Beefy Finance. By depositing crypto into a Moonpot, users gain interest on their assets and enter into a prize draw at the same time. There’s a chance to win weekly prizes paid out in crypto from each Moonpot entered — as well as an exclusive monthly prize draw for $POTS stakers.',
+  //       text: 'Moonpot is a win-win savings game on Binance Smart Chain powered by BombFarm. By depositing crypto into a Moonpot, users gain interest on their assets and enter into a prize draw at the same time. There’s a chance to win weekly prizes paid out in crypto from each Moonpot entered — as well as an exclusive monthly prize draw for $POTS stakers.',
   //       website: 'https://moonpot.com/',
   //       social: {
   //         telegram: 'https://t.me/moonpotdotcom',
@@ -1578,7 +1578,7 @@ export const bscStakePools = [
   // },
   // {
   //   id: 'moo_cake-cakev2',
-  //   name: 'Beefy',
+  //   name: 'BombFarm',
   //   logo: 'single-assets/CAKE.svg',
   //   token: 'mooCakeV2',
   //   tokenDecimals: 18,
@@ -1601,7 +1601,7 @@ export const bscStakePools = [
   //       logo: 'stake/beefy/beefyfinance.png',
   //       logoNight: 'stake/beefy/beefyfinance_night.png',
   //       background: 'stake/beefy/background.png',
-  //       text: 'Beefy Finance is the Multichain Yield Optimizer that allows its users to earn compound interest on their holdings. A yield optimizer is an automated service that seeks to gain the maximum possible return on crypto-investments made through DeFi platforms. This is much more efficient than attempting to maximize your returns by doing everything manually. It also means you don’t have to sit in front of a screen all day. So Beefy Finance is a platform that puts your crypto to work for maximum ROI with minimum effort. $BIFI is the governance token of the Beefy Finance platform. This means that when you own some $BIFI, you get the right to create and vote on proposals to do with the future of the platform. Third, the fun part: $BIFI tokens can be staked on Beefy to earn a share of the revenue created by the Beefy platform.',
+  //       text: 'BombFarm is the Multichain Yield Optimizer that allows its users to earn compound interest on their holdings. A yield optimizer is an automated service that seeks to gain the maximum possible return on crypto-investments made through DeFi platforms. This is much more efficient than attempting to maximize your returns by doing everything manually. It also means you don’t have to sit in front of a screen all day. So BombFarm is a platform that puts your crypto to work for maximum ROI with minimum effort. $BIFI is the governance token of the BombFarm platform. This means that when you own some $BIFI, you get the right to create and vote on proposals to do with the future of the platform. Third, the fun part: $BIFI tokens can be staked on BombFarm to earn a share of the revenue created by the BombFarm platform.',
   //       website: 'https://www.bomb.farm',
   //       social: {
   //         telegram: 'http://t.me/beefyfinance',

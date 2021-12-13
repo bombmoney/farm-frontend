@@ -24,7 +24,7 @@ export const fantomStakePools = [
       {
         logo: 'stake/beefy/beefyfinance.png',
         background: 'stake/beefy/background.png',
-        text: "Beefy Finance is The Multi-Chain Yield Optimizer across many blockchains, enabling users to earn autocompounded yield on their crypto. Did you know also that you can own a piece of Beefy itself? Beefy runs on its governance token, BIFI. The token has a set supply of 80,000 across all chains; no more may be minted, ever! As a holder of BIFI you may create and vote on important DAO proposals, and you become dividend-eligible to earn a share of every compounding harvest on Beefy vaults, hour by hour. Here on Fantom, you just need to stake BIFI in this reward pool, or in the autocompounding BIFI Maxi vault on the main page. For this pool, FTM dividends are gathered and sent proportionally to each staker. Stake here, return later to claim the FTM you've earned.",
+        text: "BombFarm is The Multi-Chain Yield Optimizer across many blockchains, enabling users to earn autocompounded yield on their crypto. Did you know also that you can own a piece of Beefy itself? Beefy runs on its governance token, BIFI. The token has a set supply of 80,000 across all chains; no more may be minted, ever! As a holder of BIFI you may create and vote on important DAO proposals, and you become dividend-eligible to earn a share of every compounding harvest on Beefy vaults, hour by hour. Here on Fantom, you just need to stake BIFI in this reward pool, or in the autocompounding BIFI Maxi vault on the main page. For this pool, FTM dividends are gathered and sent proportionally to each staker. Stake here, return later to claim the FTM you've earned.",
         website: 'https://www.bomb.farm',
         social: {
           telegram: 'http://t.me/beefyfinance',
@@ -157,7 +157,7 @@ export const fantomStakePools = [
       {
         logo: 'stake/beefy/beefyfinance.png',
         background: 'stake/beefy/background.png',
-        text: "Beefy Finance is The Multi-Chain Yield Optimizer across many sidechains, enabling users to earn autocompounded yield on their crypto. Did you know also that you can own a piece of Beefy itself? Beefy runs on its governance token, BIFI. The token has a set supply of 80,000 across all chains; no more may be minted, ever! As a holder of BIFI you may create and vote on important DAO proposals, and you become dividend-eligible to earn a share of every compounding harvest on Beefy vaults, hour by hour. For this pool, mooBIFI dividends are gathered and sent proportionally to each staker. Stake mooBIFI here, return later to claim the extra mooBIFI you've earned.",
+        text: "BombFarm is The Multi-Chain Yield Optimizer across many sidechains, enabling users to earn autocompounded yield on their crypto. Did you know also that you can own a piece of Beefy itself? Beefy runs on its governance token, BIFI. The token has a set supply of 80,000 across all chains; no more may be minted, ever! As a holder of BIFI you may create and vote on important DAO proposals, and you become dividend-eligible to earn a share of every compounding harvest on Beefy vaults, hour by hour. For this pool, mooBIFI dividends are gathered and sent proportionally to each staker. Stake mooBIFI here, return later to claim the extra mooBIFI you've earned.",
         website: 'https://www.bomb.farm',
         social: {
           telegram: 'http://t.me/beefyfinance',

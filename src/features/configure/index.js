@@ -1,4 +1,4 @@
-import { addressBook } from 'blockchain-addressbook';
+import { addressBook } from 'bombfarm-addressbook';
 
 const {
   polygon: polygonAddressBook,

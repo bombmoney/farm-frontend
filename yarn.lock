@@ -3127,9 +3127,9 @@ blakejs@^1.1.0:
   integrity sha512-bLG6PHOCZJKNshTjGRBvET0vTciwQE6zFKOKKXPDJfwFBd4Ac0yBfPZqcGvGJap50l7ktvlpFqc2jGVaUgbJgg==
 
 blockchain-addressbook@^0.4.32:
-  version "0.4.32"
-  resolved "https://registry.yarnpkg.com/blockchain-addressbook/-/blockchain-addressbook-0.4.32.tgz#9c912716d7e0cf8210f679aceb3a4f39cc961ecb"
-  integrity sha512-/HtnpSpI7+QQPPary6CPYCHLfun+Z3gcvtkvzWG70rVmQ7IoEL4nMI3s2dH2f2MjvAlKLRUFP4ve8iwQ0ek+Og==
+  version "0.4.42"
+  resolved "https://registry.yarnpkg.com/blockchain-addressbook/-/blockchain-addressbook-0.4.42.tgz#bbbf3dbfefad85d5762e1483f0c874abe87ef064"
+  integrity sha512-DQEeKGPm1G6jc5HnT7YC6e6/FwnROfmZTjJz+IG7NqJId9QkzUTcuNf5XsD8cUeiZ9+z4qhceoJHQU2q6JHfuQ==
 
 bluebird@^3.5.0, bluebird@^3.5.5:
   version "3.7.2"
@@ -3171,6 +3171,11 @@ body-parser@1.19.0, body-parser@^1.16.0:
     qs "6.7.0"
     raw-body "2.4.0"
     type-is "~1.6.17"
+
+bombfarm-addressbook@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/bombfarm-addressbook/-/bombfarm-addressbook-0.5.1.tgz#5d64edff4f695063e83946b44d6873a7d8bd77fe"
+  integrity sha512-b7o3gcus7injqaVSU/1L9Z4a8G09d3uk8wmBB+Fa5r/hYOOet+zT5hZ5UX1LPlhpPOqCtQZvUUeYiu1IcHYFww==
 
 bonjour@^3.5.0:
   version "3.5.0"

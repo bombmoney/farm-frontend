@@ -1,6 +1,6 @@
 // To run: yarn launchpool bsc <0x12312312> CafeSwap
 import { MultiCall } from 'eth-multicall';
-import { addressBook } from 'blockchain-addressbook';
+import { addressBook } from 'bombfarm-addressbook';
 import Web3 from 'web3';
 
 import { launchPoolABI, erc20ABI } from '../src/features/configure/abi.js';

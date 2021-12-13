@@ -34,7 +34,7 @@ export const bscPools = [
       'https://pancakeswap.finance/swap?inputCurrency=0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c&outputCurrency=0x522348779DCb2911539e76A1042aA922F9C47Ee3',
   },
   {
-    id: 'bomb-bshare-bnb',
+    id: 'bomb-bshare-wbnb',
     name: 'BSHARE-BNB LP',
     token: 'BSHARE-BNB LP',
     tokenDescription: 'bomb.money',
@@ -47,7 +47,7 @@ export const bscPools = [
     pricePerFullShare: 1,
     tvl: 0,
     oracle: 'lps',
-    oracleId: 'bomb-bshare-bnb',
+    oracleId: 'bomb-bshare-wbnb',
     oraclePrice: 0,
     depositsPaused: false,
     status: 'active',

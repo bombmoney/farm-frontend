@@ -52,7 +52,7 @@ export const bscPools = [
     depositsPaused: false,
     status: 'active',
     platform: 'bombfarm',
-    assets: ['BSHARE', 'WBNB'],
+    assets: ['BSHARE', 'BNB'],
     risks: [
       'COMPLEXITY_LOW',
       'BATTLE_TESTED',

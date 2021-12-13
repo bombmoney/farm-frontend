@@ -16,7 +16,7 @@ export function fetchBifibuyback() {
 
     return new Promise((resolve, reject) => {
       const cacheBuster = getApiCacheBuster();
-      const doRequest = axios.get(`https://api.beefy.finance/bifibuyback?_=${cacheBuster}`);
+      const doRequest = axios.get(`https://api.bomb.farm/bifibuyback?_=${cacheBuster}`);
 
       doRequest.then(
         res => {

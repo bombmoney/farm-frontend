@@ -16,7 +16,7 @@ export function fetchApys() {
 
     return new Promise((resolve, reject) => {
       const cacheBuster = getApiCacheBuster();
-      const doRequest = axios.get(`https://api.beefy.finance/apy/breakdown?_=${cacheBuster}`);
+      const doRequest = axios.get(`https://api.bomb.farm/apy/breakdown?_=${cacheBuster}`);
 
       doRequest.then(
         res => {

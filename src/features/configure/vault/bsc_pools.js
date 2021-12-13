@@ -7,7 +7,7 @@ export const bscPools = [
     tokenAddress: '0x84392649eb0bC1c1532F2180E58Bae4E1dAbd8D6',
     tokenDecimals: 18,
     tokenDescriptionUrl: '#',
-    earnedToken: 'farmBombBOMB-BTCB',
+    earnedToken: 'bombfarmBOMB-BTCB',
     earnedTokenAddress: '0x94E85B8E050F3F281CB9597cc0144F1F7AF1fe9B',
     earnContractAddress: '0x94E85B8E050F3F281CB9597cc0144F1F7AF1fe9B',
     pricePerFullShare: 1,
@@ -29,9 +29,9 @@ export const bscPools = [
     ],
     stratType: 'StratLP',
     addLiquidityUrl:
-      'https://pancakeswap.finance/add/0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c/0x522348779dcb2911539e76a1042aa922f9c47ee3',
+      'https://pancakeswap.finance/add/0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c/0x522348779DCb2911539e76A1042aA922F9C47Ee3',
     buyTokenUrl:
-      'https://app.apeswap.finance/swap?inputCurrency=0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c&outputCurrency=0x522348779dcb2911539e76a1042aa922f9c47ee3',
+      'https://pancakeswap.finance/swap?inputCurrency=0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c&outputCurrency=0x522348779DCb2911539e76A1042aA922F9C47Ee3',
   },
   {
     id: 'bomb-bshare-wbnb',
@@ -41,7 +41,7 @@ export const bscPools = [
     tokenAddress: '0x1303246855b5B5EbC71F049Fdb607494e97218f8',
     tokenDecimals: 18,
     tokenDescriptionUrl: '#',
-    earnedToken: 'bombfarmBSHARE-BNB',
+    earnedToken: 'bomfarmBSHARE-BNB',
     earnedTokenAddress: '0x60c08c4442E200d609D05df6bE327e3bA836971C',
     earnContractAddress: '0x60c08c4442E200d609D05df6bE327e3bA836971C',
     pricePerFullShare: 1,
@@ -63,9 +63,9 @@ export const bscPools = [
     ],
     stratType: 'StratLP',
     addLiquidityUrl:
-      'https://pancakeswap.finance/add/0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c/0x522348779dcb2911539e76a1042aa922f9c47ee3',
+      'https://pancakeswap.finance/add/BNB/0x531780FAcE85306877D7e1F05d713D1B50a37F7A',
     buyTokenUrl:
-      'https://app.apeswap.finance/swap?inputCurrency=0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c&outputCurrency=0x522348779dcb2911539e76a1042aa922f9c47ee3',
+      'https://pancakeswap.finance/swap?outputCurrency=0x531780FAcE85306877D7e1F05d713D1B50a37F7A',
   },
 
   // {

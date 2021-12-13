@@ -130,7 +130,7 @@ const Filters = ({
       </Grid>
 
       <Grid item xs={6} sm={4} md={3}>
-        <FormControl>
+        {/* <FormControl>
           <FormControlLabel
             className={classes.label}
             control={
@@ -147,7 +147,7 @@ const Filters = ({
               </Box>
             }
           />
-        </FormControl>
+        </FormControl> */}
       </Grid>
 
       <Grid item xs={6} sm={4} md={3}>

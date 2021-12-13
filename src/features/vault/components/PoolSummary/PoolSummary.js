@@ -124,13 +124,13 @@ const PoolSummary = ({
             className={classes.itemInner}
           />
         </Grid>
-        <ApyStats
+        {/* <ApyStats
           apy={apy}
           launchpoolApr={launchpoolApr}
           isLoading={!fetchApysDone}
           itemClasses={`${classes.item} ${classes.itemStats}`}
           itemInnerClasses={classes.itemInner}
-        />
+        /> */}
         <Grid item xs={4} className={`${classes.item} ${classes.itemStats}`}>
           <LabeledStat
             value={formatTvl(pool.tvl, pool.oraclePrice)}

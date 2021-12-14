@@ -66,19 +66,23 @@ const Header = ({ links, isNightMode, setNightMode }) => {
           </Button>
         </Link>
 
-        {/* <div className={classes.middleNav}>
+        <div className={classes.middleNav}>
           <Hidden smDown>
-            {renderLink('vote', t('vote'), 'vote-yea', classes)} */}
-        {/* {renderLink('dashboard', t('stats'), 'chart-bar', classes)} */}
+            {/* {renderLink('vote', t('vote'), 'vote-yea', classes)} */}
+            {/* {renderLink('dashboard', t('stats'), 'chart-bar', classes)} */}
+            <a class="title" href="https://app.bomb.money" target="_blank">
+              <h3>
+                <u>bomb.money Home</u>
+              </h3>
+            </a>
+          </Hidden>
+        </div>
+
         {/* {renderLink('docs', t('docs'), 'book', classes)} */}
         {/* {renderLink('blog', t('blog'), 'file-alt', classes)} */}
         {/* <InsureLink t={t} classes={classes} /> */}
         {/* </Hidden> */}
         {/* {renderLink('buy', t('buy'), 'dollar-sign', classes)} */}
-        {/* <Link className={classes.btnBoost} to={`/${chain}/stake`}>
-            <img alt="Boost" src={require('images/stake/boost.svg')} />
-          </Link> */}
-        {/* </div> */}
 
         <Hidden smDown implementation="css">
           <div className={classes.collapse}>{links}</div>
@@ -114,6 +118,11 @@ const Header = ({ links, isNightMode, setNightMode }) => {
           </IconButton>
           <div className={classes.appResponsive}>{links}</div>
           <div style={{ textAlign: 'center' }}>
+            <a class="title" href="https://app.bomb.money" target="_blank">
+              <h3>
+                <u>bomb.money Home</u>
+              </h3>
+            </a>
             {/* <LinkSidebar name="vote" label={t('vote')} icon="vote-yea" classes={classes} /> */}
             {/* <LinkSidebar name="dashboard" label={t('stats')} icon="chart-bar" classes={classes} />
             <LinkSidebar name="docs" label={t('docs')} icon="book" classes={classes} />

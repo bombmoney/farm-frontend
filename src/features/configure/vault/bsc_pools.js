@@ -17,7 +17,7 @@ export const bscPools = [
     oraclePrice: 0,
     depositsPaused: false,
     status: 'active',
-    platform: 'bombfarm',
+    platform: 'Other',
     assets: ['BOMB', 'BTCB'],
     risks: [
       'COMPLEXITY_LOW',
@@ -51,7 +51,7 @@ export const bscPools = [
     oraclePrice: 0,
     depositsPaused: false,
     status: 'active',
-    platform: 'bombfarm',
+    platform: 'Other',
     assets: ['BSHARE', 'BNB'],
     risks: [
       'COMPLEXITY_LOW',

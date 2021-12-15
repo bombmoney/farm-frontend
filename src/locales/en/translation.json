@@ -1,5 +1,5 @@
 {
-  "App-Meta-Description": "The Multichain Yield Optimizer",
+  "App-Meta-Description": "BOMB.farm autocompounding vaults.",
   "Disclaimer": "Using Smart Contracts, Tokens, and Crypto is always a risk. DYOR before investing.",
   "Network-UnknownError": "An unknown error has occurred.",
   "Network-ConnectionRequired": "Wallet connection to {{network}} required.",
@@ -18,7 +18,7 @@
   "Vault-APY": "APY",
   "Vault-APYDaily": "Daily",
   "Vault-TVL": "TVL",
-  "Vault-AutocompoundingNote": "All vaults autocompound every two hours",
+  "Vault-AutocompoundingNote": "All vaults autocompound every 30 minutes",
   "Vault-Approving": "Approving...",
   "Vault-ApproveButton": "Approve",
   "Vault-ApprovalSuccess": "Approval success",

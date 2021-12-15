@@ -37,39 +37,40 @@ const NetworksModal = memo(function NetworksModal({ isOpen, handleClose, current
   );
 
   return (
-    <StyledDialog open={isOpen} onClose={handleClose} fullWidth={true} maxWidth="sm">
-      <div className={classes.modalInner}>
-        <IconButton className={classes.close} onClick={handleClose}>
-          <Close />
-        </IconButton>
-        <h1 className={classes.title}>{t('Select-Network')}</h1>
-        <div className={classes.networks}>
-          <div className={classes.networksInner}>
-            <Grid container>
-              {allNetworks.map(network => (
-                <Grid item xs={4}>
-                  <div
-                    onClick={() => handleNetworkClick(network)}
-                    className={classes.network}
-                    key={network.id}
-                  >
-                    <img
-                      className={classes.logo}
-                      src={getSingleAssetSrc(network.asset)}
-                      alt={`${currentNetwork.name}`}
-                    />
-                    <div className={classes.tag}>
-                      {network.id === currentNetwork.id && <div className={classes.connected} />}
-                      <p className={classes.networkName}>{network.name}</p>
-                    </div>
-                  </div>
-                </Grid>
-              ))}
-            </Grid>
-          </div>
-        </div>
-      </div>
-    </StyledDialog>
+    <></>
+    // <StyledDialog open={isOpen} onClose={handleClose} fullWidth={true} maxWidth="sm">
+    //   <div className={classes.modalInner}>
+    //     {/* <IconButton className={classes.close} onClick={handleClose}>
+    //       <Close />
+    //     </IconButton> */}
+    //     {/* <h1 className={classes.title}>{t('Select-Network')}</h1>
+    //     <div className={classes.networks}>
+    //       <div className={classes.networksInner}>
+    //         <Grid container>
+    //           {allNetworks.map(network => (
+    //             <Grid item xs={4}>
+    //               <div
+    //                 onClick={() => handleNetworkClick(network)}
+    //                 className={classes.network}
+    //                 key={network.id}
+    //               >
+    //                 <img
+    //                   className={classes.logo}
+    //                   src={getSingleAssetSrc(network.asset)}
+    //                   alt={`${currentNetwork.name}`}
+    //                 />
+    //                 <div className={classes.tag}>
+    //                   {network.id === currentNetwork.id && <div className={classes.connected} />}
+    //                   <p className={classes.networkName}>{network.name}</p>
+    //                 </div>
+    //               </div>
+    //             </Grid>
+    //           ))}
+    //         </Grid>
+    //       </div>
+    //     </div> */}
+    //   </div>
+    // </StyledDialog>
   );
 });
 

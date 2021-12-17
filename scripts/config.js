@@ -23,7 +23,7 @@ export const chainPools = {
 };
 
 export const chainRpcs = {
-  bsc: process.env.BSC_RPC || 'https://bsc-dataseed.binance.org/',
+  bsc: process.env.BSC_RPC || 'https://bsc1.bomb.money/',
   heco: process.env.HECO_RPC || 'https://http-mainnet.hecochain.com',
   avax: process.env.AVAX_RPC || 'https://api.avax.network/ext/bc/C/rpc',
   polygon: process.env.POLYGON_RPC || 'https://polygon-rpc.com',

@@ -9,15 +9,15 @@ import { vaultABI, strategyABI } from '../src/features/configure/abi.js';
 import { chainPools, chainRpcs } from './config.js';
 
 const overrides = {
-  'bunny-bunny-eol': { keeper: undefined, stratOwner: undefined },
-  'blizzard-xblzd-bnb-old-eol': { keeper: undefined },
-  'blizzard-xblzd-busd-old-eol': { keeper: undefined },
-  'heco-bifi-maxi': { beefyFeeRecipient: undefined }, // 0x0
-  'polygon-bifi-maxi': { beefyFeeRecipient: undefined }, // 0x0
-  'avax-bifi-maxi': { beefyFeeRecipient: undefined }, // 0x0
-  'bifi-maxi': { stratOwner: undefined }, // harvester 0xDe30
-  'beltv2-4belt': { vaultOwner: undefined }, // moonpot deployer
-  'cronos-bifi-maxi': { beefyFeeRecipient: undefined }, // 0x0
+  // 'bunny-bunny-eol': { keeper: undefined, stratOwner: undefined },
+  // 'blizzard-xblzd-bnb-old-eol': { keeper: undefined },
+  // 'blizzard-xblzd-busd-old-eol': { keeper: undefined },
+  // 'heco-bifi-maxi': { beefyFeeRecipient: undefined }, // 0x0
+  // 'polygon-bifi-maxi': { beefyFeeRecipient: undefined }, // 0x0
+  // 'avax-bifi-maxi': { beefyFeeRecipient: undefined }, // 0x0
+  // 'bifi-maxi': { stratOwner: undefined }, // harvester 0xDe30
+  // 'beltv2-4belt': { vaultOwner: undefined }, // moonpot deployer
+  // 'cronos-bifi-maxi': { beefyFeeRecipient: undefined }, // 0x0
 };
 
 const oldValidOwners = [

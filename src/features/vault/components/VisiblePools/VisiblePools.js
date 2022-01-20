@@ -40,7 +40,10 @@ const VisiblePools = ({
 
   return (
     <>
-      <Filters
+      {/*
+        Remove filter for now. We only have two vaults in bomb.farm
+
+        <Filters
         toggleFilter={toggleFilter}
         filters={filters}
         platform={platform}
@@ -51,7 +54,7 @@ const VisiblePools = ({
         setVaultType={setVaultType}
         setAsset={setAsset}
         setOrder={setOrder}
-      />
+      /> */}
       <div className={classes.scroller}>
         <InfiniteScroll dataLength={visiblePools.length} hasMore={true} next={fetchVisiblePools}>
           {visiblePools.map((pool, index) => (

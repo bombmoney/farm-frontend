@@ -69,7 +69,7 @@ export const bscPools = [
     oracle: 'lps',
     oracleId: 'bomb-bomb-bshare',
     oraclePrice: 0,
-    depositsPaused: true,
+    depositsPaused: false,
     status: 'active',
     platform: 'PancakeSwap',
     assets: ['BSHARE', 'BOMB'],

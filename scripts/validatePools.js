@@ -130,7 +130,7 @@ const validatePools = async () => {
         addressBook[chain].platforms.bombfarm;
 
       updates = isKeeperCorrect(pool, chain, keeper, updates);
-      updates = isStratOwnerCorrect(pool, chain, strategyOwner, updates);
+      //   updates = isStratOwnerCorrect(pool, chain, strategyOwner, updates);
       updates = isVaultOwnerCorrect(pool, chain, vaultOwner, updates);
       updates = isBeefyFeeRecipientCorrect(pool, chain, beefyFeeRecipient, updates);
     });

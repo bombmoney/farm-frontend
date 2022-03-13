@@ -5,7 +5,6 @@ import AllInclusiveIcon from '@material-ui/icons/AllInclusive';
 import Grid from '@material-ui/core/Grid';
 
 import TVLLoader from './TVLLoader/TVLLoader';
-import NetworksToggle from 'components/NetworksToggle/NetworksToggle';
 import { useConnectWallet } from 'features/home/redux/hooks';
 import { useFetchBalances, useFetchVaultsData, useFetchApys } from '../../redux/hooks';
 import VisiblePools from '../VisiblePools/VisiblePools';
@@ -61,11 +60,11 @@ export default function Pools() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [address, web3, fetchBalances, fetchVaultsData]);
 
-  const chainNameLowercase = getNetworkFriendlyName().toLowerCase();
-  const chainBifibuyback =
-    fetchBifibuybackDone && chainNameLowercase in bifibuyback
-      ? bifibuyback[chainNameLowercase].buybackUsdAmount
-      : undefined;
+  // const chainNameLowercase = getNetworkFriendlyName().toLowerCase();
+  // const chainBifibuyback =
+  //   fetchBifibuybackDone && chainNameLowercase in bifibuyback
+  //     ? bifibuyback[chainNameLowercase].buybackUsdAmount
+  //     : undefined;
 
   const activePoolCount = pools.filter(pool => pool.status === 'active').length;
 

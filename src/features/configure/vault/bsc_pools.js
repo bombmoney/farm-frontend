@@ -28,7 +28,7 @@ export const bscPools = [
   },
   {
     id: 'bomb-bomb',
-    name: 'BOMB SS',
+    name: 'BOMB',
     token: 'BOMB',
     tokenDescription: 'bomb.money',
     tokenAddress: '0x522348779DCb2911539e76A1042aA922F9C47Ee3',
@@ -40,7 +40,7 @@ export const bscPools = [
     pricePerFullShare: 1,
     tvl: 0,
     oracle: 'tokens',
-    oracleId: 'bomb-bomb',
+    oracleId: 'BOMB',
     oraclePrice: 0,
     depositsPaused: false,
     status: 'active',

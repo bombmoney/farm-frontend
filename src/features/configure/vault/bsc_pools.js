@@ -40,7 +40,7 @@ export const bscPools = [
     pricePerFullShare: 1,
     tvl: 0,
     oracle: 'tokens',
-    oracleId: 'BOMB',
+    oracleId: 'bomb-bomb',
     oraclePrice: 0,
     depositsPaused: false,
     status: 'active',

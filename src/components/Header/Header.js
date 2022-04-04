@@ -70,7 +70,7 @@ const Header = ({ links, isNightMode, setNightMode }) => {
           <Hidden smDown>
             {/* {renderLink('vote', t('vote'), 'vote-yea', classes)} */}
             {/* {renderLink('dashboard', t('stats'), 'chart-bar', classes)} */}
-            <a class="title" href="https://app.bomb.money" target="_blank">
+            <a class="title" href="https://app.bomb.money">
               <h3>
                 <u>bomb.money Home</u>
               </h3>
@@ -118,7 +118,7 @@ const Header = ({ links, isNightMode, setNightMode }) => {
           </IconButton>
           <div className={classes.appResponsive}>{links}</div>
           <div style={{ textAlign: 'center' }}>
-            <a class="title" href="https://app.bomb.money" target="_blank">
+            <a class="title" href="https://app.bomb.money">
               <h3>
                 <u>bomb.money Home</u>
               </h3>

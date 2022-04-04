@@ -23,8 +23,7 @@ export const bscPools = [
     stratType: 'StratLP',
     addLiquidityUrl:
       'https://pancakeswap.finance/add/0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c/0x522348779DCb2911539e76A1042aA922F9C47Ee3',
-    buyTokenUrl:
-      'https://pancakeswap.finance/swap?inputCurrency=0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c&outputCurrency=0x522348779DCb2911539e76A1042aA922F9C47Ee3',
+    buyTokenUrl: 'https://app.1inch.io/#/56/swap/BTCB/BOMB',
   },
   {
     id: 'bomb-bshare-wbnb',
@@ -50,8 +49,7 @@ export const bscPools = [
     stratType: 'StratLP',
     addLiquidityUrl:
       'https://pancakeswap.finance/add/BNB/0x531780FAcE85306877D7e1F05d713D1B50a37F7A',
-    buyTokenUrl:
-      'https://pancakeswap.finance/swap?outputCurrency=0x531780FAcE85306877D7e1F05d713D1B50a37F7A',
+    buyTokenUrl: 'https://app.1inch.io/#/56/swap/BNB/BSHARE',
   },
   {
     id: 'bomb-busm-busd',
@@ -77,8 +75,7 @@ export const bscPools = [
     stratType: 'StratLP',
     addLiquidityUrl:
       'https://pancakeswap.finance/add/0x6216B17f696B14701E17BCB24Ec14430261Be94A/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56',
-    buyTokenUrl:
-      'https://pancakeswap.finance/swap?outputCurrency=0x6216B17f696B14701E17BCB24Ec14430261Be94A',
+    buyTokenUrl: 'https://app.1inch.io/#/56/swap/BUSD/0x6216B17f696B14701E17BCB24Ec14430261Be94A',
   },
   {
     id: 'bomb-bomb',
@@ -102,8 +99,7 @@ export const bscPools = [
     assets: ['BOMB', 'BSHARE'],
     risks: ['COMPLEXITY_LOW', 'BATTLE_TESTED', 'IL_LOW', 'AUDIT', 'CONTRACTS_VERIFIED'],
     stratType: 'SingleStake',
-    buyTokenUrl:
-      'https://pancakeswap.finance/swap?inputCurrency=0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c&outputCurrency=0x522348779DCb2911539e76A1042aA922F9C47Ee3',
+    buyTokenUrl: 'https://app.1inch.io/#/56/swap/BTCB/BOMB',
   },
   {
     id: 'bomb-bomb-bshare',

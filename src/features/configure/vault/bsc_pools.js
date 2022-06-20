@@ -242,7 +242,7 @@ export const bscPools = [
       'https://swap.czpegs.com/swap?inputCurrency=0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c&outputCurrency=0x95A6772a2272b9822D4b3DfeEaedF732F1D28DB8',
   },
   {
-    id: 'phub-maxi',
+    id: 'bomb-phub',
     logo: 'single-assets/PHUB.png',
     name: 'PHUB Maxi',
     token: 'PHUB',

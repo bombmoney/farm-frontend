@@ -54,7 +54,7 @@ const validatePools = async () => {
     const web3 = new Web3(chainRpcs[chain]);
     pools = await populateStrategyAddrs(chain, pools, web3);
     pools = await populateKeepers(chain, pools, web3);
-    pools = await populateBeefyFeeRecipients(chain, pools, web3);
+    //pools = await populateBeefyFeeRecipients(chain, pools, web3);
     pools = await populateOwners(chain, pools, web3);
 
     pools = override(pools);
@@ -273,22 +273,22 @@ const populateKeepers = async (chain, pools, web3) => {
   });
 };
 
-const populateBeefyFeeRecipients = async (chain, pools, web3) => {
-  const multicall = new MultiCall(web3, addressBook[chain].platforms.beefyfinance.multicall);
+// const populateBeefyFeeRecipients = async (chain, pools, web3) => {
+//   const multicall = new MultiCall(web3, addressBook[chain].platforms.beefyfinance.multicall);
 
-  const calls = pools.map(pool => {
-    const stratContract = new web3.eth.Contract(strategyABI, pool.strategy);
-    return {
-      beefyFeeRecipient: stratContract.methods.beefyFeeRecipient(),
-    };
-  });
+//   const calls = pools.map(pool => {
+//     const stratContract = new web3.eth.Contract(strategyABI, pool.strategy);
+//     return {
+//       beefyFeeRecipient: stratContract.methods.beefyFeeRecipient(),
+//     };
+//   });
 
-  const [results] = await multicall.all([calls]);
+//   const [results] = await multicall.all([calls]);
 
-  return pools.map((pool, i) => {
-    return { ...pool, beefyFeeRecipient: results[i].beefyFeeRecipient };
-  });
-};
+//   return pools.map((pool, i) => {
+//     return { ...pool, beefyFeeRecipient: results[i].beefyFeeRecipient };
+//   });
+// };
 
 const populateOwners = async (chain, pools, web3) => {
   const multicall = new MultiCall(web3, addressBook[chain].platforms.beefyfinance.multicall);

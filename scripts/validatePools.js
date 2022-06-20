@@ -69,7 +69,6 @@ const validatePools = async () => {
         console.error(`Error: ${pool.id} : Pool earnedToken duplicated: ${pool.earnedToken}`);
         exitCode = 1;
       }
-
       if (
         uniqueEarnedTokenAddress.has(pool.earnedTokenAddress) &&
         !allowedEarnSameToken.has(pool.id)
@@ -79,7 +78,6 @@ const validatePools = async () => {
         );
         exitCode = 1;
       }
-
       if (pool.earnedTokenAddress !== pool.earnContractAddress) {
         console.error(
           `Error: ${pool.id} : Pool earnedTokenAddress not same as earnContractAddress: ${pool.earnedTokenAddress} != ${pool.earnContractAddress}`
@@ -93,7 +91,6 @@ const validatePools = async () => {
         );
         exitCode = 1;
       }
-
       if (!pool.platform) {
         console.error(
           `Error: ${pool.id} : Pool platform missing - required for UI: filter (Use 'Other' if necessary)`
@@ -104,7 +101,6 @@ const validatePools = async () => {
           ? platformCounts[pool.platform] + 1
           : 1;
       }
-
       addressFields.forEach(field => {
         if (pool.hasOwnProperty(field) && !isValidChecksumAddress(pool[field])) {
           const maybeValid = maybeChecksumAddress(pool[field]);
@@ -126,8 +122,7 @@ const validatePools = async () => {
       uniqueEarnedTokenAddress.add(pool.earnedTokenAddress);
       uniqueOracleId.add(pool.oracleId);
 
-      const { keeper, strategyOwner, vaultOwner, beefyFeeRecipient } =
-        addressBook[chain].platforms.bombfarm;
+      const { keeper, vaultOwner, beefyFeeRecipient } = addressBook[chain].platforms.bombfarm;
 
       updates = isKeeperCorrect(pool, chain, keeper, updates);
       //   updates = isStratOwnerCorrect(pool, chain, strategyOwner, updates);
@@ -170,24 +165,6 @@ const isKeeperCorrect = (pool, chain, chainKeeper, updates) => {
       updates.keeper[chain][pool.keeper].push(pool.strategy);
     } else {
       updates.keeper[chain][pool.keeper] = [pool.strategy];
-    }
-  }
-
-  return updates;
-};
-
-const isStratOwnerCorrect = (pool, chain, owner, updates) => {
-  const validOwners = [...oldValidOwners, owner];
-  if (pool.stratOwner !== undefined && !validOwners.includes(pool.stratOwner)) {
-    console.log(`Pool ${pool.id} should update strat owner. From: ${pool.stratOwner} To: ${owner}`);
-
-    if (!('stratOwner' in updates)) updates['stratOwner'] = {};
-    if (!(chain in updates.stratOwner)) updates.stratOwner[chain] = {};
-
-    if (pool.stratOwner in updates.stratOwner[chain]) {
-      updates.stratOwner[chain][pool.stratOwner].push(pool.strategy);
-    } else {
-      updates.stratOwner[chain][pool.stratOwner] = [pool.strategy];
     }
   }
 

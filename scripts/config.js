@@ -21,7 +21,6 @@ export const chainPools = {
   // moonriver: moonriverPools,
   // cronos: cronosPools,
 };
-
 export const chainRpcs = {
   bsc: process.env.BSC_RPC || 'https://rpc.ankr.com/bsc',
   // heco: process.env.HECO_RPC || 'https://http-mainnet.hecochain.com',

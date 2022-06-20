@@ -398,8 +398,8 @@ export const getNetworkConnectors = t => {
             package: WalletConnectProvider,
             options: {
               rpc: {
-                1: 'https://bsc1.bomb.money/',
-                56: 'https://bsc1.bomb.money/',
+                1: 'https://rpc.ankr.com/bsc',
+                56: 'https://rpc.ankr.com/bsc',
               },
             },
           },

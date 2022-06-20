@@ -70,7 +70,7 @@ const Header = ({ links, isNightMode, setNightMode }) => {
           <Hidden smDown>
             {/* {renderLink('vote', t('vote'), 'vote-yea', classes)} */}
             {/* {renderLink('dashboard', t('stats'), 'chart-bar', classes)} */}
-            <a class="title" href="https://app.bomb.money">
+            <a className="title" href="https://app.bomb.money">
               <h3>
                 <u>bomb.money Home</u>
               </h3>

@@ -21,9 +21,10 @@ const overrides = {
 };
 
 const oldValidOwners = [
-  addressBook.fantom.platforms.beefyfinance.devMultisig,
-  addressBook.polygon.platforms.beefyfinance.devMultisig,
-  addressBook.arbitrum.platforms.beefyfinance.devMultisig,
+  // addressBook.fantom.platforms.beefyfinance.devMultisig,
+  // addressBook.polygon.platforms.beefyfinance.devMultisig,
+  // addressBook.arbitrum.platforms.beefyfinance.devMultisig,
+  '0x0D8e060CA2D847553ec14394ee6B304623E0d1d6',
 ];
 
 const oldValidFeeRecipients = {};

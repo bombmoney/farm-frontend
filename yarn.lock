@@ -3434,10 +3434,10 @@ body-parser@1.19.0, body-parser@^1.16.0:
     raw-body "2.4.0"
     type-is "~1.6.17"
 
-bombfarm-addressbook@^0.6.2:
-  version "0.6.2"
-  resolved "https://registry.yarnpkg.com/bombfarm-addressbook/-/bombfarm-addressbook-0.6.2.tgz#4a47bcb7e10c08ae0aa79c95bdae573325ec51bc"
-  integrity sha512-K59OnNJQ1u6VBiflKl1vKDufUe20iX/p15aMB5BTFBLQuXXN1ZbYUO6A4BdTBcw4D++x9KLZjvr/cFeGgSqlLA==
+bombfarm-addressbook@^0.6.5:
+  version "0.6.5"
+  resolved "https://registry.yarnpkg.com/bombfarm-addressbook/-/bombfarm-addressbook-0.6.5.tgz#3caf05fe3d2140df9999e8a0aaab675b5f8aef52"
+  integrity sha512-RrwNegHvkrZf0Njut0zMqQbA1FgWzd4QGFCYN+ROFZDfcUurMDR5VTXd9ybGuNufWrx1FkE6mgLrKCWdQOitNw==
 
 bonjour@^3.5.0:
   version "3.5.0"
@@ -3835,9 +3835,9 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000981, caniuse-lite@^1.0.30001035, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001251:
-  version "1.0.30001252"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001252.tgz#cb16e4e3dafe948fc4a9bb3307aea054b912019a"
-  integrity sha512-I56jhWDGMtdILQORdusxBOH+Nl/KgQSdDmpJezYddnAkVOmnoU8zwjTV9xAjMIYxr0iPreEAVylCGcmHCjfaOw==
+  version "1.0.30001367"
+  resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001367.tgz"
+  integrity sha512-XDgbeOHfifWV3GEES2B8rtsrADx4Jf+juKX2SICJcaUhjYBO3bR96kvEIHa15VU6ohtOhBZuPGGYGbXMRn0NCw==
 
 capture-exit@^2.0.0:
   version "2.0.0"

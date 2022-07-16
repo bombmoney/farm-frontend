@@ -45,7 +45,7 @@ import {
   arbitrumAddressBook,
   arbitrumZaps,
 } from '../configure';
-import { addressBook } from 'blockchain-addressbook';
+import { addressBook } from 'bombfarm-addressbook';
 import { allNetworks } from '../../network';
 
 export const appNetworkId = window.REACT_APP_NETWORK_ID;
@@ -286,6 +286,7 @@ export const getNetworkStables = () => {
     case 56:
       return [
         'BUSD',
+        'BUSM',
         'USDT',
         'USDC',
         'DAI',

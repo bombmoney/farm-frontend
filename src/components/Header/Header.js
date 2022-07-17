@@ -116,12 +116,12 @@ const Header = ({ links, isNightMode, setNightMode }) => {
           </IconButton>
           <div className={classes.appResponsive}>{links}</div>
           <div style={{ textAlign: 'center' }}>
-            <a class="title" href="https://app.bomb.money">
-              <h3>
-                <u>bomb.money Home</u>
-              </h3>
-            </a>
-            {/* <LinkSidebar name="vote" label={t('vote')} icon="vote-yea" classes={classes} /> */}
+            <LinkSidebar url="https://www.peghub.com" label={t('Home')} classes={classes} />
+            <LinkSidebar url="https://app.bitbomb.io" label={t('bitBOMB')} classes={classes} />
+            <LinkSidebar url="https://www.czpegs.com/" label={t('czPegs')} classes={classes} />
+            <LinkSidebar url="https://swap.peghub.com/swap" label={t('Swap')} classes={classes} />
+            <LinkSidebar url="https://bomb.farm/" label={t('Vaults')} classes={classes} />
+            <LinkSidebar url="https://docs.peghub.com/" label={t('Docs')} classes={classes} />
             {/* <LinkSidebar name="dashboard" label={t('stats')} icon="chart-bar" classes={classes} />
             <LinkSidebar name="docs" label={t('docs')} icon="book" classes={classes} />
             <LinkSidebar name="blog" label={t('blog')} icon="file-alt" classes={classes} />
@@ -214,8 +214,8 @@ const renderLink = (url, label, icon, classes, color) => {
   );
 };
 
-const LinkSidebar = ({ name, label, icon, classes }) => (
-  <div style={{ width: '100%', paddingTop: '10px' }}>{renderLink(name, label, icon, classes)}</div>
+const LinkSidebar = ({ url, label, icon, classes }) => (
+  <div style={{ width: '100%', paddingTop: '10px' }}>{renderLink(url, label, icon, classes)}</div>
 );
 
 export default Header;

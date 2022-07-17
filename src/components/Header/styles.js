@@ -18,11 +18,10 @@ const styles = theme => ({
   appBar: {
     display: 'flex',
     border: '0',
-    borderRadius: '3px',
-    padding: '0.625rem 0',
+    padding: '0 0',
     marginBottom: '20px',
     color: grayColor[15],
-    width: 'calc(100% - 20px)',
+    width: '100%',
     margin: '0 auto',
     backgroundColor: whiteColor,
     boxShadow:
@@ -149,7 +148,7 @@ const styles = theme => ({
   },
   dark: {
     color: whiteColor,
-    backgroundColor: theme.palette.background.default,
+    backgroundColor: theme.palette.background.red,
     boxShadow: '0px 0px',
   },
   white: {
@@ -217,6 +216,7 @@ const styles = theme => ({
   },
   logo: {
     marginRight: '12px',
+    backgroundColor: theme.palette.background.default,
   },
   middleNav: {
     display: 'flex',
@@ -230,8 +230,8 @@ const styles = theme => ({
     border: 0,
     padding: 0,
     cursor: 'pointer',
-    fontSize: '1rem',
-    fontWeight: 400,
+    fontSize: '1.1rem',
+    fontWeight: 700,
     color: '#000',
     textDecoration: 'none',
     '&:hover': {

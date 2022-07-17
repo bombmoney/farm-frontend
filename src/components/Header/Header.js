@@ -206,7 +206,7 @@ const renderLink = (url, label, icon, classes, color) => {
       target="_blank"
       rel="noopener noreferrer"
       className={classes.link}
-      style={{ marginLeft: '14px', marginRight: '14px' }}
+      style={{ marginLeft: '5px', marginRight: '5px' }}
     >
       {icon && <i className={`fas fa-${icon} ${classes.icon}`} />}
       {color ? <span style={{ color: color }}>{label}</span> : <span>{label}</span>}

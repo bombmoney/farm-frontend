@@ -214,7 +214,7 @@ const styles = theme => ({
   },
   walletDisplay: {
     width: '100%',
-    margin: '12px 0',
+    margin: '0 0',
     fontSize: '14px',
     fontWeight: 'bold',
     backgroundColor: theme.palette.background.secondary,

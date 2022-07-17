@@ -60,7 +60,7 @@ const styles = theme => ({
     },
   },
   showDetailButtonContained: {
-    backgroundColor: primaryColor[0],
+    backgroundColor: theme.palette.background.red,
     '& .MuiButton-label': {
       color: 'white',
     },

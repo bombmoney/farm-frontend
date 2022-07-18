@@ -48,17 +48,16 @@ const Header = ({ links, isNightMode, setNightMode }) => {
           <Button className={classes.title}>
             <Hidden xsDown>
               <img
-                alt="BOMB"
-                src={require(`images/bomb-256.png`)}
-                height={'40px'}
+                alt="PegHub"
+                src={require(`images/peghub.png`)}
+                height={'50px'}
                 className={classes.logo}
               />
-              bomb.farm
             </Hidden>
             <Hidden smUp>
               <img
-                alt="BOMB"
-                src={require(`images/bomb-256.png`)}
+                alt="PegHub"
+                src={require(`images/peghub.png`)}
                 height={'35px'}
                 className={classes.logo}
               />
@@ -68,13 +67,12 @@ const Header = ({ links, isNightMode, setNightMode }) => {
 
         <div className={classes.middleNav}>
           <Hidden smDown>
-            {/* {renderLink('vote', t('vote'), 'vote-yea', classes)} */}
-            {/* {renderLink('dashboard', t('stats'), 'chart-bar', classes)} */}
-            <a className="title" href="https://app.bomb.money">
-              <h3>
-                <u>bomb.money Home</u>
-              </h3>
-            </a>
+            {renderLink('https://www.peghub.com', t('Home'), null, classes)}
+            {renderLink('https://app.bitbomb.io/', t('bitBOMB'), null, classes)}
+            {renderLink('https://www.czpegs.com/', t('czPegs'), null, classes)}
+            {renderLink('https://swap.peghub.com/swap', t('Swap'), null, classes)}
+            {renderLink('https://bomb.farm/', t('Vaults'), null, classes, '#000000')}
+            {renderLink('https://docs.peghub.com/', t('Docs'), null, classes)}
           </Hidden>
         </div>
 
@@ -118,21 +116,21 @@ const Header = ({ links, isNightMode, setNightMode }) => {
           </IconButton>
           <div className={classes.appResponsive}>{links}</div>
           <div style={{ textAlign: 'center' }}>
-            <a class="title" href="https://app.bomb.money">
-              <h3>
-                <u>bomb.money Home</u>
-              </h3>
-            </a>
-            {/* <LinkSidebar name="vote" label={t('vote')} icon="vote-yea" classes={classes} /> */}
+            <LinkSidebar url="https://www.peghub.com" label={t('Home')} classes={classes} />
+            <LinkSidebar url="https://app.bitbomb.io" label={t('bitBOMB')} classes={classes} />
+            <LinkSidebar url="https://www.czpegs.com/" label={t('czPegs')} classes={classes} />
+            <LinkSidebar url="https://swap.peghub.com/swap" label={t('Swap')} classes={classes} />
+            <LinkSidebar url="https://bomb.farm/" label={t('Vaults')} classes={classes} />
+            <LinkSidebar url="https://docs.peghub.com/" label={t('Docs')} classes={classes} />
             {/* <LinkSidebar name="dashboard" label={t('stats')} icon="chart-bar" classes={classes} />
             <LinkSidebar name="docs" label={t('docs')} icon="book" classes={classes} />
             <LinkSidebar name="blog" label={t('blog')} icon="file-alt" classes={classes} />
             <LinkSidebar name="forum" label={t('forum')} icon="comments" classes={classes} />
             <InsureLinkSidebar t={t} classes={classes} />
             <LinkSidebar name="buy" label={t('buy')} icon="dollar-sign" classes={classes} /> */}
-            <IconButton onClick={setNightMode} className={classes.icon}>
+            {/*<IconButton onClick={setNightMode} className={classes.icon}>
               {isNightMode ? <WbSunny /> : <NightsStay />}
-            </IconButton>
+            </IconButton>*/}
           </div>
         </Drawer>
       </Hidden>
@@ -201,27 +199,23 @@ const InsureLink = memo(function InsureLink({ t, classes }) {
   );
 });
 
-const renderLink = (name, label, icon, classes) => {
+const renderLink = (url, label, icon, classes, color) => {
   return (
     <a
-      href={getLinkUrl(name)}
+      href={url}
       target="_blank"
       rel="noopener noreferrer"
       className={classes.link}
       style={{ marginLeft: '5px', marginRight: '5px' }}
     >
-      <i className={`fas fa-${icon} ${classes.icon}`} />
-      <span>{label}</span>
+      {icon && <i className={`fas fa-${icon} ${classes.icon}`} />}
+      {color ? <span style={{ color: color }}>{label}</span> : <span>{label}</span>}
     </a>
   );
 };
 
-const LinkSidebar = ({ name, label, icon, classes }) => (
-  <div style={{ width: '100%', paddingTop: '10px' }}>{renderLink(name, label, icon, classes)}</div>
+const LinkSidebar = ({ url, label, icon, classes }) => (
+  <div style={{ width: '100%', paddingTop: '10px' }}>{renderLink(url, label, icon, classes)}</div>
 );
-
-const getLinkUrl = name => {
-  return name === 'buy' ? getNetworkBuyUrl() : `https://${name}.bomb.farm`;
-};
 
 export default Header;

@@ -71,7 +71,7 @@ const Header = ({ links, isNightMode, setNightMode }) => {
             {renderLink('https://app.bitbomb.io/', t('bitBOMB'), null, classes)}
             {renderLink('https://www.czpegs.com/', t('czPegs'), null, classes)}
             {renderLink('https://swap.peghub.com/swap', t('Swap'), null, classes)}
-            {renderLink('https://bomb.farm/', t('Vaults'), null, classes, '#000000')}
+            {renderLink('https://vaults.peghub.com/', t('Vaults'), null, classes, '#000000')}
             {renderLink('https://docs.peghub.com/', t('Docs'), null, classes)}
           </Hidden>
         </div>
@@ -120,7 +120,7 @@ const Header = ({ links, isNightMode, setNightMode }) => {
             <LinkSidebar url="https://app.bitbomb.io" label={t('bitBOMB')} classes={classes} />
             <LinkSidebar url="https://www.czpegs.com/" label={t('czPegs')} classes={classes} />
             <LinkSidebar url="https://swap.peghub.com/swap" label={t('Swap')} classes={classes} />
-            <LinkSidebar url="https://bomb.farm/" label={t('Vaults')} classes={classes} />
+            <LinkSidebar url="https://vaults.peghub.com/" label={t('Vaults')} classes={classes} />
             <LinkSidebar url="https://docs.peghub.com/" label={t('Docs')} classes={classes} />
             {/* <LinkSidebar name="dashboard" label={t('stats')} icon="chart-bar" classes={classes} />
             <LinkSidebar name="docs" label={t('docs')} icon="book" classes={classes} />

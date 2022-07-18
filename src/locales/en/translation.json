@@ -1,5 +1,5 @@
 {
-  "App-Meta-Description": "BOMB.farm autocompounding vaults.",
+  "App-Meta-Description": "vaults.peghub.com autocompounding vaults.",
   "Disclaimer": "Using Smart Contracts, Tokens, and Crypto is always a risk. DYOR before investing.",
   "Network-UnknownError": "An unknown error has occurred.",
   "Network-ConnectionRequired": "Wallet connection to {{network}} required.",
@@ -34,7 +34,7 @@
   "Vault-DepositScenario": "Deposit will result in:",
   "Vault-DepositScenarioSwap": "To balance a liquidity pair, swap {{swapIn}} for {{swapOut}} (±{{slippageTolerance}} slippage and deposit fee, if any)",
   "Vault-DepositScenarioAddLiquidity": "Add liquidity to receive {{poolToken}}",
-  "Vault-DepositScenarioDepositToVault": "Deposit received {{poolToken}} into bomb.farm vault",
+  "Vault-DepositScenarioDepositToVault": "Deposit received {{poolToken}} into vaults.peghub.com vault",
   "Vault-DepositScenarioReturnDust": "Return unused trace amounts of {{tokenA}} and {{tokenB}} to your wallet",
   "Vault-Withdrawing": "Withdrawing...",
   "Vault-WithdrawButton": "Withdraw",

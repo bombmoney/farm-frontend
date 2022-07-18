@@ -2,7 +2,7 @@
 
 ## Overview
 
-Official frontend repo of [beefy.finance](https://www.bomb.farm). Multichain yield farming optimizer.
+Official frontend repo of [beefy.finance](https://www.vaults.peghub.com). Multichain yield farming optimizer.
 
 ## Env
 

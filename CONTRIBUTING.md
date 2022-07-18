@@ -48,7 +48,7 @@ Finally, if you're looking to collaborate and want to find easy tasks to start, 
 
 ## Contributor rewards
 
-Beefy wants to be a self-sustainable community. A portion of the fees that come from running the vaults at [beefy.finance](https://www.bomb.farm) goes into a community managed treasury. The treasury is used to pay for marketing, community managers, developers, etc. We are learning together how to do this in a fair and effective way. When it comes to devs there are a few options:
+Beefy wants to be a self-sustainable community. A portion of the fees that come from running the vaults at [beefy.finance](https://www.vaults.peghub.com) goes into a community managed treasury. The treasury is used to pay for marketing, community managers, developers, etc. We are learning together how to do this in a fair and effective way. When it comes to devs there are a few options:
 
 1. There are some issues that will have a "Treasury Bounty" tag and a dollar amount in the issue title. This means that the issue carries a reward to the dev that closes it.
 2. You can propose a bounty or budget to get something done by following our [proposal guidelines](PROPOSAL_GUIDELINES.md)

@@ -61,7 +61,10 @@ function Root() {
         <meta name="description" content={getPageMeta('App-Meta-Description')} />
         <meta property="og:title" content={getPageMeta('App-Meta-Title')} />
         <meta property="og:description" content={getPageMeta('App-Meta-Description')} />
-        <meta property="og:url" content={process.env.PUBLIC_URL || 'https://www.bomb.farm'} />
+        <meta
+          property="og:url"
+          content={process.env.PUBLIC_URL || 'https://www.vaults.peghub.com'}
+        />
       </Helmet>
       <HashRouter>{children}</HashRouter>
     </Provider>

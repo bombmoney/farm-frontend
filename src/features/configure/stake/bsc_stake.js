@@ -67,7 +67,7 @@ export const bscStakePools = [
   //       logoNight: 'stake/beefy/beefyfinance_night.png',
   //       background: 'stake/beefy/background.png',
   //       text: "BombFarm is The Multi-Chain Yield Optimizer across many blockchains, enabling users to earn autocompounded yield on their crypto. Did you know also that you can own a piece of BombFarm itself? BombFarm runs on its governance token, BIFI. The token has a set supply of 80,000 across all chains; no more may be minted, ever! As a holder of BIFI you may create and vote on important DAO proposals, and you become dividend-eligible to earn a share of every compounding harvest on BombFarm vaults, hour by hour. Here on Binance, you just need to stake BIFI in this reward pool, or in the autocompounding BIFI Maxi vault on the main page. For this pool, BNB dividends are gathered and sent proportionally to each staker. Stake here, return later to claim the BNB you've earned.",
-  //       website: 'https://www.bomb.farm',
+  //       website: 'https://www.vaults.peghub.com',
   //       social: {
   //         telegram: 'http://t.me/beefyfinance',
   //         twitter: 'https://twitter.com/beefyfinance',
@@ -1602,7 +1602,7 @@ export const bscStakePools = [
   //       logoNight: 'stake/beefy/beefyfinance_night.png',
   //       background: 'stake/beefy/background.png',
   //       text: 'BombFarm is the Multichain Yield Optimizer that allows its users to earn compound interest on their holdings. A yield optimizer is an automated service that seeks to gain the maximum possible return on crypto-investments made through DeFi platforms. This is much more efficient than attempting to maximize your returns by doing everything manually. It also means you don’t have to sit in front of a screen all day. So BombFarm is a platform that puts your crypto to work for maximum ROI with minimum effort. $BIFI is the governance token of the BombFarm platform. This means that when you own some $BIFI, you get the right to create and vote on proposals to do with the future of the platform. Third, the fun part: $BIFI tokens can be staked on BombFarm to earn a share of the revenue created by the BombFarm platform.',
-  //       website: 'https://www.bomb.farm',
+  //       website: 'https://www.vaults.peghub.com',
   //       social: {
   //         telegram: 'http://t.me/beefyfinance',
   //         twitter: 'https://twitter.com/beefyfinance',

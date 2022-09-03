@@ -12,12 +12,12 @@ export const allNetworks = [
   //   id: 128,
   //   hash: '/heco',
   // },
-  // {
-  //   name: 'AVALANCHE',
-  //   asset: 'AVALANCHE',
-  //   id: 43114,
-  //   hash: '/avax',
-  // },
+  {
+    name: 'AVALANCHE',
+    asset: 'AVALANCHE',
+    id: 43114,
+    hash: '/avax',
+  },
   // {
   //   name: 'POLYGON',
   //   asset: 'POLYGON',

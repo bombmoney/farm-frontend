@@ -21,10 +21,9 @@ export const avalanchePools = [
     assets: ['SNOWAVAX', 'AVAX'],
     risks: ['COMPLEXITY_LOW', 'BATTLE_TESTED', 'IL_LOW', 'AUDIT', 'CONTRACTS_VERIFIED'],
     stratType: 'StratLP',
-    addLiquidityUrl:
-      'https://swap.peghub.com/add/0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c/0x39739A969ff667C91a81252b3DDDFAe31aaE4Aeb',
+    addLiquidityUrl: 'https://swap.peghub.com/add/ETH/0xDA1d9C79240003195d0a67f202efcCCC3F78b994',
     buyTokenUrl:
-      'https://swap.peghub.com/swap?inputCurrency=0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c&outputCurrency=0x39739A969ff667C91a81252b3DDDFAe31aaE4Aeb',
+      'https://swap.peghub.com/swap?inputCurrency=ETH&outputCurrency=0xDA1d9C79240003195d0a67f202efcCCC3F78b994',
   },
   {
     id: 'snowpegs-snowsol-sol',
@@ -49,9 +48,9 @@ export const avalanchePools = [
     risks: ['COMPLEXITY_LOW', 'BATTLE_TESTED', 'IL_LOW', 'AUDIT', 'CONTRACTS_VERIFIED'],
     stratType: 'StratLP',
     addLiquidityUrl:
-      'https://swap.peghub.com/add/0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c/0x39739A969ff667C91a81252b3DDDFAe31aaE4Aeb',
+      'https://swap.peghub.com/add/0xFE6B19286885a4F7F55AdAD09C3Cd1f906D2478F/0x531780FAcE85306877D7e1F05d713D1B50a37F7A',
     buyTokenUrl:
-      'https://swap.peghub.com/swap?inputCurrency=0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c&outputCurrency=0x39739A969ff667C91a81252b3DDDFAe31aaE4Aeb',
+      'https://swap.peghub.com/swap?inputCurrency=ETH&outputCurrency=0x531780FAcE85306877D7e1F05d713D1B50a37F7A',
   },
   {
     id: 'snowpegs-snowlink-link',
@@ -76,9 +75,9 @@ export const avalanchePools = [
     risks: ['COMPLEXITY_LOW', 'BATTLE_TESTED', 'IL_LOW', 'AUDIT', 'CONTRACTS_VERIFIED'],
     stratType: 'StratLP',
     addLiquidityUrl:
-      'https://swap.peghub.com/add/0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c/0x39739A969ff667C91a81252b3DDDFAe31aaE4Aeb',
+      'https://swap.peghub.com/add/0x5947BB275c521040051D82396192181b413227A3/0x522348779DCb2911539e76A1042aA922F9C47Ee3',
     buyTokenUrl:
-      'https://swap.peghub.com/swap?inputCurrency=0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c&outputCurrency=0x39739A969ff667C91a81252b3DDDFAe31aaE4Aeb',
+      'https://swap.peghub.com/swap?inputCurrency=ETH&outputCurrency=0x522348779DCb2911539e76A1042aA922F9C47Ee3',
   },
   {
     id: 'snowpegs-snowshare-avax',
@@ -102,9 +101,8 @@ export const avalanchePools = [
     assets: ['SNOWSHARE', 'AVAX'],
     risks: ['COMPLEXITY_LOW', 'BATTLE_TESTED', 'IL_LOW', 'AUDIT', 'CONTRACTS_VERIFIED'],
     stratType: 'StratLP',
-    addLiquidityUrl:
-      'https://swap.peghub.com/add/0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c/0x39739A969ff667C91a81252b3DDDFAe31aaE4Aeb',
+    addLiquidityUrl: 'https://swap.peghub.com/add/ETH/0x8bb24b7C26c272b0A371ECdc829D690C9A8B1d4b',
     buyTokenUrl:
-      'https://swap.peghub.com/swap?inputCurrency=0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c&outputCurrency=0x39739A969ff667C91a81252b3DDDFAe31aaE4Aeb',
+      'https://swap.peghub.com/swap?inputCurrency=ETH&outputCurrency=0x8bb24b7C26c272b0A371ECdc829D690C9A8B1d4b',
   },
 ];

@@ -80,7 +80,7 @@ export function initializePriceCache() {
   if (!oracleToIds.has('tokens')) {
     oracleToIds.set('tokens', []);
   }
-  oracleToIds.get('tokens').push('BIFI');
+  oracleToIds.get('tokens').push('PHUB');
 
   Object.values(launchpools).forEach(pool => {
     if (!oracleToIds.has(pool.earnedOracle)) {

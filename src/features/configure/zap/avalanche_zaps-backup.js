@@ -15,8 +15,8 @@ export const avalancheZaps = [
   },
   {
     // Joe
-    zapAddress: '0x970a6ed897D8C62797368d5BE55520c058639105',
-    ammRouter: '0x79F9950fb2055f79cB65206F16F06614E8C1c08b',
+    zapAddress: '0x6674f3961C5908B086A5551377806f4BA8F0Ac99',
+    ammRouter: '0x60aE616a2155Ee3d9A68541Ba4544862310933d4',
     ammFactory: '0x9Ad6C38BE94206cA50bb0d90783181662f0Cfa10',
     ammPairInitHash: '0x0bbca9af0511ad1a1da383135cf3a8d2ac620e549ef9f6ae3a4c33c2fed0af91',
   },

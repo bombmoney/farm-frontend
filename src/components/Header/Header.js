@@ -70,6 +70,7 @@ const Header = ({ links, isNightMode, setNightMode }) => {
             {renderLink('https://www.peghub.com', t('Home'), null, classes)}
             {renderLink('https://app.bitbomb.io/', t('bitBOMB'), null, classes)}
             {renderLink('https://www.czpegs.com/', t('czPegs'), null, classes)}
+            {renderLink('https://www.snowpegs.com/', t('SnowPegs'), null, classes)}
             {renderLink('https://swap.peghub.com/swap', t('Swap'), null, classes)}
             {renderLink('https://vaults.peghub.com/', t('Vaults'), null, classes, '#000000')}
             {renderLink('https://docs.peghub.com/', t('Docs'), null, classes)}

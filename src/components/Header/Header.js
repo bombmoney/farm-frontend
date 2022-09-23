@@ -49,15 +49,15 @@ const Header = ({ links, isNightMode, setNightMode }) => {
             <Hidden xsDown>
               <img
                 alt="PegHub"
-                src={require(`images/peghub.png`)}
-                height={'50px'}
+                src={require(`images/peghubstaking.png`)}
+                height={'70px'}
                 className={classes.logo}
               />
             </Hidden>
             <Hidden smUp>
               <img
                 alt="PegHub"
-                src={require(`images/peghub.png`)}
+                src={require(`images/peghubstaking.png`)}
                 height={'35px'}
                 className={classes.logo}
               />

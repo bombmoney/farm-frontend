@@ -21,9 +21,9 @@ export const polygonPools = [
     assets: ['PMATIC', 'MATIC'],
     risks: ['COMPLEXITY_LOW', 'BATTLE_TESTED', 'IL_LOW', 'AUDIT', 'CONTRACTS_VERIFIED'],
     stratType: 'StratLP',
-    addLiquidityUrl: 'https://swap.peghub.com/add/ETH/0xDA1d9C79240003195d0a67f202efcCCC3F78b994',
+    addLiquidityUrl: 'https://swap.peghub.com/add/ETH/0xB7e1E341b2CBCc7d1EdF4DC6E5e962aE5C621ca5',
     buyTokenUrl:
-      'https://swap.peghub.com/swap?inputCurrency=ETH&outputCurrency=0xDA1d9C79240003195d0a67f202efcCCC3F78b994',
+      'https://swap.peghub.com/swap?inputCurrency=ETH&outputCurrency=0xB7e1E341b2CBCc7d1EdF4DC6E5e962aE5C621ca5',
   },
   {
     id: 'polypegs-pshare-matic',
@@ -47,8 +47,8 @@ export const polygonPools = [
     assets: ['PSHARE', 'MATIC'],
     risks: ['COMPLEXITY_LOW', 'BATTLE_TESTED', 'IL_LOW', 'AUDIT', 'CONTRACTS_VERIFIED'],
     stratType: 'StratLP',
-    addLiquidityUrl: 'https://swap.peghub.com/add/ETH/0xDA1d9C79240003195d0a67f202efcCCC3F78b994',
+    addLiquidityUrl: 'https://swap.peghub.com/add/ETH/0x04b79c851ed1A36549C6151189c79EC0eaBca745',
     buyTokenUrl:
-      'https://swap.peghub.com/swap?inputCurrency=ETH&outputCurrency=0xDA1d9C79240003195d0a67f202efcCCC3F78b994',
+      'https://swap.peghub.com/swap?inputCurrency=ETH&outputCurrency=0x04b79c851ed1A36549C6151189c79EC0eaBca745',
   },
 ];

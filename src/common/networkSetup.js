@@ -32,17 +32,17 @@ export const networkSettings = {
     rpcUrls: ['https://api.avax.network/ext/bc/C/rpc'],
     blockExplorerUrls: ['https://snowtrace.io/'],
   },
-  // 137: {
-  //   chainId: `0x${parseInt(137, 10).toString(16)}`,
-  //   chainName: 'Polygon Mainnet',
-  //   nativeCurrency: {
-  //     name: 'MATIC',
-  //     symbol: 'MATIC',
-  //     decimals: 18,
-  //   },
-  //   rpcUrls: ['https://polygon-rpc.com'],
-  //   blockExplorerUrls: ['https://polygonscan.com/'],
-  // },
+  137: {
+    chainId: `0x${parseInt(137, 10).toString(16)}`,
+    chainName: 'Polygon Mainnet',
+    nativeCurrency: {
+      name: 'MATIC',
+      symbol: 'MATIC',
+      decimals: 18,
+    },
+    rpcUrls: ['https://polygon-rpc.com'],
+    blockExplorerUrls: ['https://polygonscan.com/'],
+  },
   // 250: {
   //   chainId: `0x${parseInt(250, 10).toString(16)}`,
   //   chainName: 'Fantom Opera',

@@ -18,12 +18,12 @@ export const allNetworks = [
     id: 43114,
     hash: '/avax',
   },
-  // {
-  //   name: 'POLYGON',
-  //   asset: 'POLYGON',
-  //   id: 137,
-  //   hash: '/polygon',
-  // },
+  {
+    name: 'POLYGON',
+    asset: 'POLYGON',
+    id: 137,
+    hash: '/polygon',
+  },
   // {
   //   name: 'FANTOM',
   //   asset: 'FANTOM',

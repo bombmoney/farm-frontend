@@ -1,7 +1,7 @@
 export const bombPools = [
   {
     id: 'bombswap-bombswap-bomb',
-    name: 'BOMBSWAP-BOMB',
+    name: 'BOMBSWAP-BOMB LP',
     token: 'BOMBSWAP-BOMB LP',
     tokenDescription: 'BombSwap',
     tokenAddress: '0x43C4D5D8fd96558Aa3e2134E93Ed8B7035c4C552',

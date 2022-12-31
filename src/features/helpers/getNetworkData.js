@@ -324,6 +324,8 @@ export const getNetworkStables = () => {
       ];
     case 128:
       return ['USDT', 'HUSD'];
+    case 2300:
+      return [];
     case 43114:
       return [
         'USDT',
@@ -377,6 +379,8 @@ export const getNetworkMulticall = () => {
   switch (window.REACT_APP_NETWORK_ID) {
     case 56:
       return '0xB94858b0bB5437498F5453A16039337e5Fdc269C';
+    case 2300:
+      return '0x584a950ac7390F83218FA34Db1b1a0F994155826';
     case 128:
       return '0x2776CF9B6E2Fa7B33A37139C3CB1ee362Ff0356e';
     case 43114:

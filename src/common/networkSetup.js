@@ -10,6 +10,17 @@ export const networkSettings = {
     rpcUrls: ['https://bsc-dataseed.binance.org'],
     blockExplorerUrls: ['https://bscscan.com/'],
   },
+  2300: {
+    chainId: `0x${parseInt(2300, 10).toString(16)}`,
+    chainName: 'BOMB Chain',
+    nativeCurrency: {
+      name: 'BOMB',
+      symbol: 'BOMB',
+      decimals: 18,
+    },
+    rpcUrls: ['https://rpc.bombchain.com'],
+    blockExplorerUrls: ['https://bombscan.com/'],
+  },
   // 128: {
   //   chainId: `0x${parseInt(128, 10).toString(16)}`,
   //   chainName: 'HECO Mainnet',

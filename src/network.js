@@ -6,6 +6,12 @@ export const allNetworks = [
     id: 56,
     hash: '/bsc',
   },
+  {
+    name: 'BOMB',
+    asset: 'BOMB',
+    id: 2300,
+    hash: '/bomb',
+  },
   // {
   //   name: 'HECO',
   //   asset: 'HECO',

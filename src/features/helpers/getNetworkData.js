@@ -19,6 +19,8 @@ import {
   hecoStakePools,
   hecoAddressBook,
   hecoZaps,
+  bombPools,
+  bombZaps,
   nativeCoins,
   polygonPools,
   polygonStakePools,
@@ -26,6 +28,7 @@ import {
   polygonZaps,
   celoPools,
   celoStakePools,
+  bombAddressBook,
   celoAddressBook,
   celoZaps,
   moonriverPools,
@@ -61,11 +64,13 @@ const networkTxUrls = {
   42220: hash => `https://explorer.celo.org/tx/${hash}`,
   1285: hash => `https://moonriver.moonscan.io/tx/${hash}`,
   25: hash => `https://cronos.crypto.org/explorer/tx/${hash}`,
+  2300: hash => `https://bombscan.com/tx/${hash}`,
 };
 
 const networkFriendlyName = {
   56: 'BSC',
   128: 'HECO',
+  2300: 'BOMB',
   43114: 'AVAX',
   137: 'Polygon',
   250: 'Fantom',
@@ -78,6 +83,7 @@ const networkFriendlyName = {
 
 const networkBuyUrls = {
   56: 'https://app.1inch.io/#/r/0xF4cb25a1FF50E319c267b3E51CBeC2699FB2A43B',
+  2300: 'https://bombswap.xyz',
   128: 'https://ht.mdex.com/#/swap?inputCurrency=0xa71edc38d189767582c38a3145b5873052c3e47a&outputCurrency=0x765277eebeca2e31912c9946eae1021199b39c61',
   137: 'https://app.1inch.io/#/r/0xF4cb25a1FF50E319c267b3E51CBeC2699FB2A43B',
   250: 'https://spookyswap.finance/swap?inputCurrency=0x04068da6c83afcfa0e13ba15a6696662335d5b75&outputCurrency=0xd6070ae98b8069de6B494332d1A1a81B6179D960',
@@ -101,6 +107,8 @@ export const getNetworkPools = () => {
   switch (window.REACT_APP_NETWORK_ID) {
     case 56:
       return bscPools;
+    case 2300:
+      return bombPools;
     case 128:
       return hecoPools;
     case 43114:
@@ -128,6 +136,8 @@ export const getNetworkVaults = (networkId = appNetworkId) => {
   switch (networkId) {
     case 56:
       return indexBy(bscPools, 'id');
+    case 2300:
+      return indexBy(bombPools, 'id');
     case 128:
       return indexBy(hecoPools, 'id');
     case 43114:
@@ -155,6 +165,8 @@ export const getNetworkLaunchpools = (networkId = appNetworkId) => {
   switch (networkId) {
     case 56:
       return indexBy(bscStakePools, 'id');
+    case 2300:
+      return {};
     case 128:
       return indexBy(hecoStakePools, 'id');
     case 43114:
@@ -183,6 +195,8 @@ export const getNetworkTokens = () => {
   switch (chainId) {
     case 56:
       return bscAddressBook.tokens;
+    case 2300:
+      return bombAddressBook.tokens;
     case 128:
       return hecoAddressBook.tokens;
     case 43114:
@@ -247,6 +261,8 @@ export const getNetworkBurnTokens = () => {
       return {};
     case 1285:
       return {};
+    case 2300:
+      return {};
     case 25:
       return {};
     default:
@@ -258,6 +274,8 @@ export const getNetworkZaps = () => {
   switch (window.REACT_APP_NETWORK_ID) {
     case 56:
       return bscZaps;
+    case 2300:
+      return bombZaps;
     case 128:
       return hecoZaps;
     case 43114:
@@ -480,6 +498,28 @@ export const getNetworkConnectors = t => {
     case 43114:
       return {
         network: 'avalanche',
+        cacheProvider: true,
+        providerOptions: {
+          injected: {
+            display: {
+              name: 'Injected',
+              description: t('Home-BrowserWallet'),
+            },
+          },
+          // walletconnect: {
+          //   package: WalletConnectProvider,
+          //   options: {
+          //     rpc: {
+          //       1: 'https://api.avax.network/ext/bc/C/rpc',
+          //       43114: 'https://api.avax.network/ext/bc/C/rpc',
+          //     },
+          //   },
+          // },
+        },
+      };
+    case 2300:
+      return {
+        network: 'bomb',
         cacheProvider: true,
         providerOptions: {
           injected: {

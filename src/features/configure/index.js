@@ -6,6 +6,7 @@ const {
   celo: celoAddressBook,
   avax: avaxAddressBook,
   bsc: bscAddressBook,
+  bomb: bombAddressBook,
   fantom: fantomAddressBook,
   one: harmonyAddressBook,
   arbitrum: arbitrumAddressBook,
@@ -14,6 +15,7 @@ const {
 } = addressBook;
 export {
   bscAddressBook,
+  bombAddressBook,
   hecoAddressBook,
   celoAddressBook,
   avaxAddressBook,
@@ -39,6 +41,7 @@ export {
 } from './abi';
 export { bscStakePools } from './stake/bsc_stake';
 export { hecoStakePools } from './stake/heco_stake';
+export { bombZaps } from './zap/bomb_zaps';
 export { avalancheStakePools } from './stake/avalanche_stake';
 export { celoStakePools } from './stake/celo_stake';
 export { moonriverStakePools } from './stake/moonriver_stake';
@@ -48,6 +51,7 @@ export { harmonyStakePools } from './stake/harmony_stake';
 export { arbitrumStakePools } from './stake/arbitrum_stake';
 export { cronosStakePools } from './stake/cronos_stake';
 export { bscPools } from './vault/bsc_pools';
+export { bombPools } from './vault/bomb_pools';
 export { hecoPools } from './vault/heco_pools';
 export { avalanchePools } from './vault/avalanche_pools';
 export { celoPools } from './vault/celo_pools';

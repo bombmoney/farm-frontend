@@ -1,0 +1,28 @@
+export const bombPools = [
+  {
+    id: 'bombswap-bombswap-bomb',
+    name: 'BOMBSWAP-BOMB',
+    token: 'BOMBSWAP-BOMB LP',
+    tokenDescription: 'BombSwap',
+    tokenAddress: '0x43C4D5D8fd96558Aa3e2134E93Ed8B7035c4C552',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'bombswapBOMBSWAP-BOMB',
+    earnedTokenAddress: '0xd7a587c444f5B6cd199Ef4bdE60459046992f33f',
+    earnContractAddress: '0xd7a587c444f5B6cd199Ef4bdE60459046992f33f',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'bombswap-bombswap-bomb',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'BombSwap',
+    assets: ['BOMBSWAP', 'BOMB'],
+    risks: ['COMPLEXITY_LOW', 'BATTLE_TESTED', 'IL_LOW', 'AUDIT', 'CONTRACTS_VERIFIED'],
+    stratType: 'StratMultiLP',
+    addLiquidityUrl: 'https://bombswap.xyz/add/ETH/0xaC029BF2871b3f810AAbF836Adc4F89369027971',
+    buyTokenUrl:
+      'https://bombswap.xyz/swap?outputCurrency=0xaC029BF2871b3f810AAbF836Adc4F89369027971',
+  },
+];

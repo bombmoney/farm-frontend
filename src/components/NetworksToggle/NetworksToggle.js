@@ -20,7 +20,7 @@ const NetworksToggle = memo(function () {
 
   return (
     <>
-      {/* <div className={classes.container} onClick={handleOpen}>
+      <div className={classes.container} onClick={handleOpen}>
         <img
           className={classes.logo}
           src={getSingleAssetSrc(currentNetwork.asset)}
@@ -31,7 +31,7 @@ const NetworksToggle = memo(function () {
           <p className={classes.networkName}>{currentNetwork.name}</p>
         </div>
       </div>
-      <NetworksModal isOpen={isOpen} handleClose={handleClose} currentNetwork={currentNetwork} /> */}
+      <NetworksModal isOpen={isOpen} handleClose={handleClose} currentNetwork={currentNetwork} />
     </>
   );
 });

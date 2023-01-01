@@ -67,10 +67,12 @@ const Header = ({ links, isNightMode, setNightMode }) => {
 
         <div className={classes.middleNav}>
           <Hidden smDown>
-            {renderLink('https://www.peghub.com', t('Home'), null, classes)}
+            {renderLink('https://www.peghub.com', t('PegHub'), null, classes)}
+            {renderLink('https://app.bomb.money/', t('BOMB Money'), null, classes)}
             {renderLink('https://app.bitbomb.io/', t('bitBOMB'), null, classes)}
             {renderLink('https://www.czpegs.com/', t('czPegs'), null, classes)}
             {renderLink('https://www.snowpegs.com/', t('SnowPegs'), null, classes)}
+            {renderLink('https://www.polypegs.com/', t('PolyPegs'), null, classes)}
             {renderLink('https://swap.peghub.com/swap', t('Swap'), null, classes)}
             {renderLink('https://vaults.peghub.com/', t('Vaults'), null, classes, '#000000')}
             {renderLink('https://docs.peghub.com/', t('Docs'), null, classes)}
@@ -117,9 +119,12 @@ const Header = ({ links, isNightMode, setNightMode }) => {
           </IconButton>
           <div className={classes.appResponsive}>{links}</div>
           <div style={{ textAlign: 'center' }}>
-            <LinkSidebar url="https://www.peghub.com" label={t('Home')} classes={classes} />
+            <LinkSidebar url="https://www.peghub.com" label={t('PegHub')} classes={classes} />
+            <LinkSidebar url="https://app.bomb.money" label={t('BOMB Money')} classes={classes} />
             <LinkSidebar url="https://app.bitbomb.io" label={t('bitBOMB')} classes={classes} />
             <LinkSidebar url="https://www.czpegs.com/" label={t('czPegs')} classes={classes} />
+            <LinkSidebar url="https://www.snowpegs.com/" label={t('SnowPegs')} classes={classes} />
+            <LinkSidebar url="https://www.polypegs.com/" label={t('PolyPegs')} classes={classes} />
             <LinkSidebar url="https://swap.peghub.com/swap" label={t('Swap')} classes={classes} />
             <LinkSidebar url="https://vaults.peghub.com/" label={t('Vaults')} classes={classes} />
             <LinkSidebar url="https://docs.peghub.com/" label={t('Docs')} classes={classes} />

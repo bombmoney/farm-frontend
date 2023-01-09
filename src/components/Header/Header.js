@@ -144,66 +144,66 @@ const Header = ({ links, isNightMode, setNightMode }) => {
   );
 };
 
-const InsureLinkSidebar = memo(function InsureLinkSidebar(props) {
-  return (
-    <div style={{ width: '100%', paddingTop: '10px' }}>
-      <InsureLink {...props} />
-    </div>
-  );
-});
+// const InsureLinkSidebar = memo(function InsureLinkSidebar(props) {
+//   return (
+//     <div style={{ width: '100%', paddingTop: '10px' }}>
+//       <InsureLink {...props} />
+//     </div>
+//   );
+// });
 
-const InsureLink = memo(function InsureLink({ t, classes }) {
-  const [isOpen, setIsOpen] = useState(false);
-  const handleClose = useCallback(() => setIsOpen(false), [setIsOpen]);
-  const handleOpen = useCallback(
-    e => {
-      e.preventDefault();
-      setIsOpen(true);
-    },
-    [setIsOpen]
-  );
+// const InsureLink = memo(function InsureLink({ t, classes }) {
+//   const [isOpen, setIsOpen] = useState(false);
+//   const handleClose = useCallback(() => setIsOpen(false), [setIsOpen]);
+//   const handleOpen = useCallback(
+//     e => {
+//       e.preventDefault();
+//       setIsOpen(true);
+//     },
+//     [setIsOpen]
+//   );
 
-  return (
-    <>
-      <Link
-        component="button"
-        className={classes.link}
-        style={{ marginLeft: '5px', marginRight: '5px' }}
-        onClick={handleOpen}
-      >
-        <i className={`fas fa-shield-alt ${classes.icon}`} />
-        <span>{t('insure')}</span>
-      </Link>
-      <StyledDialog open={isOpen} onClose={handleClose} fullWidth={true} maxWidth="sm">
-        <div className={classes.modalInner}>
-          <IconButton className={classes.modalClose} onClick={handleClose}>
-            <Close />
-          </IconButton>
-          <h1 className={classes.modalTitle}>{t('InsurAce-Title')}</h1>
-          <div className={classes.modalSections}>
-            {t('InsurAce-Sections', { returnObjects: true }).map(section => (
-              <div className={classes.modalSection}>
-                <h2 className={classes.modalSectionTitle}>{section.title}</h2>
-                {section.content.map(paragraph => (
-                  <p key={paragraph} className={classes.modalSectionText}>
-                    {paragraph}
-                  </p>
-                ))}
-              </div>
-            ))}
-          </div>
-          <CustomButton
-            href="https://app.insurace.io/Insurance/Cart?id=110&chain=BSC&referrer=95244279533280151623141934507761661103282646845"
-            target="_blank"
-            className={classes.modalButton}
-          >
-            {t('InsurAce-Button')}
-          </CustomButton>
-        </div>
-      </StyledDialog>
-    </>
-  );
-});
+//   return (
+//     <>
+//       <Link
+//         component="button"
+//         className={classes.link}
+//         style={{ marginLeft: '5px', marginRight: '5px' }}
+//         onClick={handleOpen}
+//       >
+//         <i className={`fas fa-shield-alt ${classes.icon}`} />
+//         <span>{t('insure')}</span>
+//       </Link>
+//       <StyledDialog open={isOpen} onClose={handleClose} fullWidth={true} maxWidth="sm">
+//         <div className={classes.modalInner}>
+//           <IconButton className={classes.modalClose} onClick={handleClose}>
+//             <Close />
+//           </IconButton>
+//           <h1 className={classes.modalTitle}>{t('InsurAce-Title')}</h1>
+//           <div className={classes.modalSections}>
+//             {t('InsurAce-Sections', { returnObjects: true }).map(section => (
+//               <div className={classes.modalSection}>
+//                 <h2 className={classes.modalSectionTitle}>{section.title}</h2>
+//                 {section.content.map(paragraph => (
+//                   <p key={paragraph} className={classes.modalSectionText}>
+//                     {paragraph}
+//                   </p>
+//                 ))}
+//               </div>
+//             ))}
+//           </div>
+//           <CustomButton
+//             href="https://app.insurace.io/Insurance/Cart?id=110&chain=BSC&referrer=95244279533280151623141934507761661103282646845"
+//             target="_blank"
+//             className={classes.modalButton}
+//           >
+//             {t('InsurAce-Button')}
+//           </CustomButton>
+//         </div>
+//       </StyledDialog>
+//     </>
+//   );
+// });
 
 const renderLink = (url, label, icon, classes, color) => {
   return (

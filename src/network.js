@@ -1,16 +1,16 @@
 /* eslint-disable import/first */
 export const allNetworks = [
   {
-    name: 'BOMB',
-    asset: 'BOMB',
-    id: 2300,
-    hash: '/bomb',
-  },
-  {
     name: 'BSC',
     asset: 'BSC',
     id: 56,
     hash: '/bsc',
+  },
+  {
+    name: 'BOMB',
+    asset: 'BOMB',
+    id: 2300,
+    hash: '/bomb',
   },
   // {
   //   name: 'HECO',

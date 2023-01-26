@@ -16,7 +16,7 @@
     "axios": "^0.21.1",
     "bignumber.js": "^9.0.1",
     "blockchain-addressbook": "^0.4.32",
-    "bombfarm-addressbook": "^0.6.35",
+    "bombfarm-addressbook": "^0.6.36",
     "classnames": "^2.2.6",
     "connected-react-router": "^6.8.0",
     "dotenv": "8.2.0",

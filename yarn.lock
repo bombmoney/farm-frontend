@@ -3671,10 +3671,10 @@ body-parser@1.19.0, body-parser@^1.16.0:
     raw-body "2.4.0"
     type-is "~1.6.17"
 
-bombfarm-addressbook@^0.6.40:
-  version "0.6.40"
-  resolved "https://registry.yarnpkg.com/bombfarm-addressbook/-/bombfarm-addressbook-0.6.40.tgz#3f4c4af391a68c47f6daa2dd071100be6b2920cf"
-  integrity sha512-1rI1H4AGqMdiS755Jb9859ABlDr7PMZTKPTKoYgVYa+mjhcbNtgbUBYMhwShY9HcDKwLSR2gWXfFH/v1Wbg24w==
+bombfarm-addressbook@^0.6.41:
+  version "0.6.41"
+  resolved "https://registry.yarnpkg.com/bombfarm-addressbook/-/bombfarm-addressbook-0.6.41.tgz#6edbf455b683c2befe67ca64a5f6781ea1330276"
+  integrity sha512-KEXuZMg39RCBxMasVqR/9/bO6bDtpL9yCWbf2cYdm5+X8lctmoK1e9VZ4gmkaCJKQAs30v+xQ1FjxxWhBYcWJg==
 
 bonjour@^3.5.0:
   version "3.5.0"

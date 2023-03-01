@@ -7,8 +7,8 @@ export const allNetworks = [
     hash: '/bomb',
   },
   {
-    name: 'BSC',
-    asset: 'BSC',
+    name: 'BNB',
+    asset: 'BNB',
     id: 56,
     hash: '/bsc',
   },

@@ -27,7 +27,7 @@ export function indexBy(array, key) {
 export const shouldHideFromHarvest = vaultName => {
   // FIXME: hidden until we implement an 'advanced' toggle
   // return HarvestBlacklistVaultIds.includes(vaultName);
-  return true;
+  return false;
 };
 
 // const HarvestBlacklistVaultIds = [

@@ -34,7 +34,7 @@ const fetchTokens = async () => {
   const cacheBuster = getApiCacheBuster();
 
   try {
-    const response = await axios.get(`https://api.vaults.peghub.com/prices?_=${cacheBuster}`);
+    const response = await axios.get(`https://api.bomb.farm/prices?_=${cacheBuster}`);
     return response.data;
   } catch (err) {
     console.error(err);
@@ -46,7 +46,7 @@ const fetchLPs = async () => {
   const cacheBuster = getApiCacheBuster();
 
   try {
-    const response = await axios.get(`https://api.vaults.peghub.com/lps?_=${cacheBuster}`);
+    const response = await axios.get(`https://api.bomb.farm/lps?_=${cacheBuster}`);
     return response.data;
   } catch (err) {
     console.error(err);

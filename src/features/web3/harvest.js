@@ -16,7 +16,7 @@ const _harvest = ({ contract, address, dispatch }) => {
   return new Promise((resolve, reject) => {
     contract.methods
       .harvest()
-      .send({ from: address })
+      .send({ from: address, maxPriorityFeePerGas: null, maxFeePerGas: null })
       .on('transactionHash', function (hash) {
         console.log(hash);
         dispatch(

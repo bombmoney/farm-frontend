@@ -12,7 +12,7 @@ const _deposit = ({ web3, contract, amount, isAll, address, dispatch }) => {
     if (isAll) {
       contract.methods
         .depositAll()
-        .send({ from: address })
+        .send({ from: address, maxPriorityFeePerGas: null, maxFeePerGas: null })
         .on('transactionHash', function (hash) {
           dispatch(
             enqueueSnackbar({
@@ -37,7 +37,7 @@ const _deposit = ({ web3, contract, amount, isAll, address, dispatch }) => {
     } else {
       contract.methods
         .deposit(amount)
-        .send({ from: address })
+        .send({ from: address, maxPriorityFeePerGas: null, maxFeePerGas: null })
         .on('transactionHash', function (hash) {
           console.log(hash);
           dispatch(

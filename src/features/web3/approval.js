@@ -7,8 +7,11 @@ export const approval = ({ web3, address, tokenAddress, contractAddress, dispatc
     const contract = new web3.eth.Contract(erc20ABI, tokenAddress);
 
     contract.methods
-      .approve(contractAddress, '0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff')
-      .send({ from: address })
+      .approve(
+        contractAddress,
+        '0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'
+      )
+      .send({ from: address, maxPriorityFeePerGas: null, maxFeePerGas: null })
       .on('transactionHash', function (hash) {
         dispatch(
           enqueueSnackbar({

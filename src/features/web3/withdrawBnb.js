@@ -12,7 +12,7 @@ const _withdraw = ({ web3, contract, address, isAll, amount, dispatch }) => {
     if (isAll) {
       contract.methods
         .withdrawAllBNB()
-        .send({ from: address })
+        .send({ from: address, maxPriorityFeePerGas: null, maxFeePerGas: null })
         .on('transactionHash', function (hash) {
           console.log(hash);
           dispatch(
@@ -41,7 +41,7 @@ const _withdraw = ({ web3, contract, address, isAll, amount, dispatch }) => {
     } else {
       contract.methods
         .withdrawBNB(amount)
-        .send({ from: address })
+        .send({ from: address, maxPriorityFeePerGas: null, maxFeePerGas: null })
         .on('transactionHash', function (hash) {
           console.log(hash);
           dispatch(

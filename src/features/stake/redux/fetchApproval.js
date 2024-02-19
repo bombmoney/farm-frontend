@@ -34,7 +34,7 @@ export function fetchApproval(id) {
 
       contract.methods
         .approve(earnContractAddress, UNLIMITED_APPROVAL)
-        .send({ from: address })
+        .send({ from: address, maxPriorityFeePerGas: null, maxFeePerGas: null })
         .on('transactionHash', function (hash) {
           dispatch(
             enqueueSnackbar({

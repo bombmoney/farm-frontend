@@ -31,7 +31,7 @@ export function fetchClaim(id) {
 
       contract.methods
         .getReward()
-        .send({ from: address })
+        .send({ from: address, maxPriorityFeePerGas: null, maxFeePerGas: null })
         .on('transactionHash', function (hash) {
           dispatch(
             enqueueSnackbar({

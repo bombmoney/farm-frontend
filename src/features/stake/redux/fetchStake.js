@@ -31,7 +31,7 @@ export function fetchStake(id, amount) {
 
       contract.methods
         .stake(amount)
-        .send({ from: address })
+        .send({ from: address, maxPriorityFeePerGas: null, maxFeePerGas: null })
         .on('transactionHash', function (hash) {
           dispatch(
             enqueueSnackbar({

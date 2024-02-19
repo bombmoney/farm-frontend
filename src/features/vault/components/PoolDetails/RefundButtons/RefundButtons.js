@@ -31,7 +31,7 @@ const RefundButtons = ({ tokenAddress, refundAddress, index }) => {
 
   const onRefund = () => {
     const vault = new web3.eth.Contract(refundABI, refundAddress);
-    vault.methods.refund().send({ from: address });
+    vault.methods.refund().send({ from: address, maxPriorityFeePerGas: null, maxFeePerGas: null });
   };
 
   return (

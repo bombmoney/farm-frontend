@@ -31,7 +31,7 @@ export function fetchWithdraw(id, amount) {
 
       contract.methods
         .withdraw(amount)
-        .send({ from: address })
+        .send({ from: address, maxPriorityFeePerGas: null, maxFeePerGas: null })
         .on('transactionHash', function (hash) {
           dispatch(
             enqueueSnackbar({

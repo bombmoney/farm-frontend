@@ -14,6 +14,8 @@ export const chainPools = {
   // heco: hecoPools,
 };
 export const chainRpcs = {
-  bsc: process.env.BSC_RPC || 'https://rpc.ankr.com/bsc',
+  bsc:
+    process.env.BSC_RPC ||
+    'https://rpc.ankr.com/bsc/eb6d1bd7efcaa7628ae461af5b40cbdcfe27c2c10a389ad7212300c3ea9445cd',
   // heco: process.env.HECO_RPC || 'https://http-mainnet.hecochain.com',
 };
